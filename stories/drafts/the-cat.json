@@ -1,0 +1,181 @@
+{
+  "title": "گربه",
+  "title_en": "The Cat",
+  "level": "Beginner",
+  "description": "A simple story about a cat sitting on a mat.",
+  "full_text": "گربه روی حصیر نشست.",
+  "translation": "The cat sat on the mat.",
+  "words": [
+    {
+      "farsi": "گربه",
+      "transliteration": "gorbe",
+      "meaning": "cat",
+      "pronunciation": "GOR-be",
+      "diacritics": "گُربِه",
+      "letters": [
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "g"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        }
+      ]
+    },
+    {
+      "farsi": "روی",
+      "transliteration": "ruy",
+      "meaning": "on / on top of",
+      "pronunciation": "ROO-ee",
+      "diacritics": "رُوی",
+      "letters": [
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "uː"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        }
+      ]
+    },
+    {
+      "farsi": "حصیر",
+      "transliteration": "hasir",
+      "meaning": "mat",
+      "pronunciation": "ha-SEER",
+      "diacritics": "حَصیر",
+      "letters": [
+        {
+          "char": "ح",
+          "name": "He",
+          "isolated": "ح",
+          "initial": "حـ",
+          "medial": "ـحـ",
+          "final": "ـح",
+          "sound": "h"
+        },
+        {
+          "char": "ص",
+          "name": "Sad",
+          "isolated": "ص",
+          "initial": "صـ",
+          "medial": "ـصـ",
+          "final": "ـص",
+          "sound": "s"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "iː"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ]
+    },
+    {
+      "farsi": "نشست",
+      "transliteration": "neshast",
+      "meaning": "sat / sat down",
+      "pronunciation": "ne-SHAST",
+      "diacritics": "نِشَست",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        }
+      ]
+    }
+  ]
+}
