@@ -69,6 +69,9 @@ async function ingest(filePath: string) {
       description: draft.description,
       full_text:   draft.full_text,
       translation: draft.translation,
+      layout:      draft.layout ?? 'prose',
+      source:      draft.source ?? 'original',
+      ganjoor_id:  draft.ganjoor_id ?? null,
     })
     .select('id')
     .single();

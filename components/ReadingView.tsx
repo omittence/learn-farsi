@@ -14,21 +14,20 @@ type Token =
   | { type: 'word'; word: Word }
   | { type: 'text'; text: string };
 
-// Tokenize full_text into clickable words and plain punctuation/spaces.
-// Splits on Unicode letter/digit runs vs everything else, then looks up
-// each run in the word map.
-function tokenize(fullText: string, words: Word[]): Token[] {
+// Tokenize a string into clickable words and plain punctuation/spaces.
+function tokenize(text: string, words: Word[]): Token[] {
   const wordMap = new Map(words.map((w) => [w.farsi, w]));
-  const chunks = fullText.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? [];
+  const chunks  = text.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? [];
   return chunks.map((chunk): Token => {
     const word = wordMap.get(chunk);
     return word ? { type: 'word', word } : { type: 'text', text: chunk };
   });
 }
 
+
 export default function ReadingView({ story }: Props) {
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
-  const [anchorRect, setAnchorRect] = useState<DOMRect | null>(null);
+  const [anchorRect, setAnchorRect]     = useState<DOMRect | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
 
   const handleWordClick = useCallback((word: Word, rect: DOMRect) => {
@@ -41,7 +40,6 @@ export default function ReadingView({ story }: Props) {
     setAnchorRect(null);
   }, []);
 
-  const tokens = tokenize(story.full_text, story.words);
   const farsiFont = { fontFamily: 'var(--font-vazirmatn), sans-serif' };
 
   return (
@@ -66,13 +64,13 @@ export default function ReadingView({ story }: Props) {
         </p>
       </header>
 
-{/* RTL reading area — tokenized to preserve punctuation */}
+      {/* Reading area */}
       <article
         dir="rtl"
-        className="leading-loose text-2xl sm:text-4xl text-white mb-12"
+        className={`leading-loose text-2xl sm:text-4xl text-white mb-12${story.layout === 'poem' ? ' text-center' : ''}`}
         style={farsiFont}
       >
-        {tokens.map((token, i) =>
+        {tokenize(story.full_text, story.words).map((token, i) =>
           token.type === 'word' ? (
             <ClickableWord
               key={`${token.word.id}-${i}`}
@@ -98,7 +96,7 @@ export default function ReadingView({ story }: Props) {
           Translation
         </button>
         {showTranslation && (
-          <p className="text-zinc-400 leading-relaxed mt-3 animate-fade-in">
+          <p className="text-zinc-400 leading-relaxed mt-3 animate-fade-in whitespace-pre-line">
             {story.translation}
           </p>
         )}

@@ -13,7 +13,7 @@ export async function getAllStoryIds(): Promise<string[]> {
 export async function getAllStoryCards(): Promise<StoryCard[]> {
   const { data, error } = await supabase
     .from('stories')
-    .select('id, title, title_en, level, description, sort_order, story_words(count)')
+    .select('id, title, title_en, level, description, sort_order, layout, story_words(count)')
     .order('sort_order', { ascending: true });
   if (error) throw error;
 
@@ -24,6 +24,7 @@ export async function getAllStoryCards(): Promise<StoryCard[]> {
     level: s.level,
     description: s.description,
     sort_order: s.sort_order,
+    layout: s.layout ?? 'prose',
     word_count: s.story_words?.[0]?.count ?? 0,
   }));
 }

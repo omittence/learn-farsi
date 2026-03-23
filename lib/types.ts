@@ -23,6 +23,9 @@ export interface Word {
   letters: Letter[];
 }
 
+export type StoryLayout = 'prose' | 'poem';
+export type StorySource = 'original' | 'ganjoor';
+
 export interface Story {
   id: string;
   title: string;
@@ -32,6 +35,9 @@ export interface Story {
   full_text: string;
   translation: string;
   sort_order: number;
+  layout: StoryLayout;
+  source: StorySource;
+  ganjoor_id: number | null;
 }
 
 export interface StoryWithWords extends Story {
@@ -46,6 +52,7 @@ export interface StoryCard {
   description: string;
   word_count: number;
   sort_order: number;
+  layout: StoryLayout;
 }
 
 export interface UserProgress {
@@ -84,4 +91,7 @@ export interface DraftStory {
   full_text: string;
   translation: string;
   words: DraftWord[];
+  layout?: 'prose' | 'poem';
+  source?: 'original' | 'ganjoor';
+  ganjoor_id?: number;
 }
