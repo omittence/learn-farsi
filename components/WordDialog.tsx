@@ -62,10 +62,12 @@ export default function WordDialog({ word, anchorRect, onClose }: Props) {
     }
   }, [onClose]);
 
-  // Desktop: anchor below the clicked word.
-  // anchorRect is viewport-relative (from getBoundingClientRect), and the dialog
-  // uses fixed positioning (also viewport-relative), so no scrollY offset needed.
-  const top = anchorRect.bottom + GAP;
+  // Desktop: anchor below the clicked word, flip above if it would go off-screen.
+  const DIALOG_MAX_H = 352; // ~22rem
+  const spaceBelow = window.innerHeight - anchorRect.bottom - GAP;
+  const top = spaceBelow >= DIALOG_MAX_H
+    ? anchorRect.bottom + GAP
+    : Math.max(EDGE_PAD, anchorRect.top - GAP - DIALOG_MAX_H);
   const centerX = anchorRect.left + anchorRect.width / 2;
   const left = Math.max(
     EDGE_PAD,

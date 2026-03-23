@@ -1,10 +1,22 @@
-import { getAllStoryCards } from '@/lib/queries';
+import { getAllStoryCards, getDailyDebriefArchiveDates, getLatestDailyDebriefWithWords } from '@/lib/queries';
+import DailyDebriefFeature from '@/components/DailyDebriefFeature';
 import StoryCard from '@/components/StoryCard';
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
-  const all = await getAllStoryCards();
+  const [storiesResult, latestDebriefResult, archiveDatesResult] = await Promise.allSettled([
+    getAllStoryCards(),
+    getLatestDailyDebriefWithWords(),
+    getDailyDebriefArchiveDates(),
+  ]);
+  if (storiesResult.status !== 'fulfilled') {
+    throw storiesResult.reason;
+  }
+
+  const all = storiesResult.value;
+  const latestDebrief = latestDebriefResult.status === 'fulfilled' ? latestDebriefResult.value : null;
+  const archiveDates = archiveDatesResult.status === 'fulfilled' ? archiveDatesResult.value : [];
   const stories = all.filter((s) => s.layout === 'prose');
   const poems = all.filter((s) => s.layout === 'poem');
 
@@ -18,6 +30,8 @@ export default async function HomePage() {
           Learn to read Farsi through interactive stories and poems
         </p>
       </header>
+
+      <DailyDebriefFeature latestDebrief={latestDebrief} archiveDates={archiveDates} />
 
       {stories.length > 0 && (
         <section className="mb-16">

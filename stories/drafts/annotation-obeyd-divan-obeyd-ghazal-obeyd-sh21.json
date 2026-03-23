@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "source_raw_path": "stories/drafts/raw-obeyd-divan-obeyd-ghazal-obeyd-sh21.json",
+  "output_slug": "obeyd-divan-obeyd-ghazal-obeyd-sh21",
+  "final_draft_path": "stories/drafts/obeyd-divan-obeyd-ghazal-obeyd-sh21.json",
+  "missing_words_path": "stories/drafts/missing-obeyd-divan-obeyd-ghazal-obeyd-sh21.json",
+  "title": "غزل شمارهٔ ۲۱",
+  "title_en": "عبید زاکانی — غزل شمارهٔ ۲۱",
+  "level": "Advanced",
+  "layout": "poem",
+  "source": "ganjoor",
+  "ganjoor_id": 23571,
+  "ganjoor_url": "https://ganjoor.net/obeyd/divan-obeyd/ghazal-obeyd/sh21",
+  "description": "A compact Obeid Zakani ghazal of longing and impossibility: the speaker cannot leave the beloved's quarter, cannot endure separation, and insists that love, wine, and remembrance are inseparable from life.",
+  "translation": "To go out again from this land is not possible;\nto be a stranger again to the beloved's lane is not possible.\n\nBecause of those sweet lips, that lock of hair, and your face,\npatience, endurance, forbearance, and composure are not possible for me.\n\nO heart, strive, perhaps you may seize the hem of the beloved,\nfor union without seeking and waiting is not possible.\n\nFor me not to love cannot enter my head;\nfor me not to drink wine in spring is not possible.\n\nIn that land where we now are,\npassage is not possible even for the travelers of the morning breeze.\n\nObeid too, if from time to time he can manage a ghazal,\nlet him say that no keepsake sweeter than this is possible.",
+  "full_text": "دگر برون شدنم زین دیار ممکن نیست\nدگر غریبیم از کوی یار ممکن نیست\n\nمرا از آن لب شیرین و زلف و عارض تو\nشکیب و طاقت و صبر و قرار ممکن نیست\n\nدلا بکوش مگر دامنش به دست آری\nکه وصل بی‌طلب و انتظار ممکن نیست\n\nمن اینکه عشق نورزم مرا به سر نرود\nمن اینکه می نخورم در بهار ممکن نیست\n\nدر آن دیار که ماییم حالیا آنجا\nمسافران صبا را گذار ممکن نیست\n\nعبید هم غزلی گاه گاه اگر بتوان\nبگو که خوشتر از این یادگار ممکن نیست",
+  "word_order": [
+    "دگر",
+    "برون",
+    "شدنم",
+    "زین",
+    "دیار",
+    "ممکن",
+    "نیست",
+    "غریبیم",
+    "از",
+    "کوی",
+    "یار",
+    "مرا",
+    "آن",
+    "لب",
+    "شیرین",
+    "و",
+    "زلف",
+    "عارض",
+    "تو",
+    "شکیب",
+    "طاقت",
+    "صبر",
+    "قرار",
+    "دلا",
+    "بکوش",
+    "مگر",
+    "دامنش",
+    "به",
+    "دست",
+    "آری",
+    "که",
+    "وصل",
+    "بی‌طلب",
+    "انتظار",
+    "من",
+    "اینکه",
+    "عشق",
+    "نورزم",
+    "سر",
+    "نرود",
+    "می",
+    "نخورم",
+    "در",
+    "بهار",
+    "ماییم",
+    "حالیا",
+    "آنجا",
+    "مسافران",
+    "صبا",
+    "را",
+    "گذار",
+    "عبید",
+    "هم",
+    "غزلی",
+    "گاه",
+    "اگر",
+    "بتوان",
+    "بگو",
+    "خوشتر",
+    "این",
+    "یادگار"
+  ],
+  "reused_words": [
+    {
+      "farsi": "دگر",
+      "transliteration": "degar",
+      "meaning": "other, another (poetic)",
+      "pronunciation": "de-GAR",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "e"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "g"
+        }
+      ],
+      "diacritics": "دگر"
+    },
+    {
+      "farsi": "برون",
+      "transliteration": "borun",
+      "meaning": "outside, out (poetic)",
+      "pronunciation": "bo-RUN",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "o"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "r"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "uː"
+        }
+      ],
+      "diacritics": "برون"
+    },
+    {
+      "farsi": "از",
+      "transliteration": "az",
+      "meaning": "from, of",
+      "pronunciation": "az",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        }
+      ],
+      "diacritics": "از"
+    },
+    {
+      "farsi": "مرا",
+      "transliteration": "marā",
+      "meaning": "me; for me",
+      "pronunciation": "ma-RĀ",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        }
+      ],
+      "diacritics": "مرا"
+    },
+    {
+      "farsi": "آن",
+      "transliteration": "ān",
+      "meaning": "that",
+      "pronunciation": "ān",
+      "letters": [
+        {
+          "char": "آ",
+          "name": "Alef Madda",
+          "isolated": "آ",
+          "initial": "آ",
+          "medial": "ـآ",
+          "final": "ـآ",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "ɑː"
+        }
+      ],
+      "diacritics": "آن"
+    },
+    {
+      "farsi": "و",
+      "transliteration": "va",
+      "meaning": "and",
+      "pronunciation": "va",
+      "letters": [
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        }
+      ],
+      "diacritics": "و"
+    },
+    {
+      "farsi": "تو",
+      "transliteration": "to",
+      "meaning": "you (singular)",
+      "pronunciation": "to",
+      "letters": [
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "o"
+        }
+      ],
+      "diacritics": "تو"
+    },
+    {
+      "farsi": "به",
+      "transliteration": "be",
+      "meaning": "to / at",
+      "pronunciation": "be",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        }
+      ],
+      "diacritics": "به"
+    },
+    {
+      "farsi": "دست",
+      "transliteration": "dast",
+      "meaning": "hand",
+      "pronunciation": "dast",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "æ"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "s"
+        }
+      ],
+      "diacritics": "دست"
+    },
+    {
+      "farsi": "که",
+      "transliteration": "ke",
+      "meaning": "that, who, which",
+      "pronunciation": "ke",
+      "letters": [
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        }
+      ],
+      "diacritics": "که"
+    },
+    {
+      "farsi": "من",
+      "transliteration": "man",
+      "meaning": "I, me",
+      "pronunciation": "man",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "æ"
+        }
+      ],
+      "diacritics": "من"
+    },
+    {
+      "farsi": "عشق",
+      "transliteration": "ʿeshq",
+      "meaning": "love",
+      "pronunciation": "eshq",
+      "letters": [
+        {
+          "char": "ع",
+          "name": "Ayn",
+          "isolated": "ع",
+          "initial": "عـ",
+          "medial": "ـعـ",
+          "final": "ـع",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "ق",
+          "name": "Qaf",
+          "isolated": "ق",
+          "initial": "قـ",
+          "medial": "ـقـ",
+          "final": "ـق",
+          "sound": "q"
+        }
+      ],
+      "diacritics": "عشق"
+    },
+    {
+      "farsi": "سر",
+      "transliteration": "sar",
+      "meaning": "head; top",
+      "pronunciation": "sar",
+      "letters": [
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "æ"
+        }
+      ],
+      "diacritics": "سر"
+    },
+    {
+      "farsi": "می",
+      "transliteration": "mey",
+      "meaning": "wine (here)",
+      "pronunciation": "mey",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "æ"
+        }
+      ],
+      "diacritics": "می"
+    },
+    {
+      "farsi": "نخورم",
+      "transliteration": "nakhoram",
+      "meaning": "I will not be fooled / I will not eat",
+      "pronunciation": "na-KHO-ram",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "æ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "x"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "o"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "r"
+        }
+      ],
+      "diacritics": "نخورم"
+    },
+    {
+      "farsi": "در",
+      "transliteration": "dorr",
+      "meaning": "pearl (poetic)",
+      "pronunciation": "dorr",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "o"
+        }
+      ],
+      "diacritics": "در"
+    },
+    {
+      "farsi": "صبا",
+      "transliteration": "ṣabā",
+      "meaning": "morning breeze",
+      "pronunciation": "sa-BĀ",
+      "letters": [
+        {
+          "char": "ص",
+          "name": "Sad",
+          "isolated": "ص",
+          "initial": "صـ",
+          "medial": "ـصـ",
+          "final": "ـص",
+          "sound": "s"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        }
+      ],
+      "diacritics": "صبا"
+    },
+    {
+      "farsi": "را",
+      "transliteration": "rā",
+      "meaning": "(direct object marker)",
+      "pronunciation": "rā",
+      "letters": [
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        }
+      ],
+      "diacritics": "را"
+    },
+    {
+      "farsi": "عبید",
+      "transliteration": "obeyd",
+      "meaning": "Obeid (the poet's name)",
+      "pronunciation": "o-BEYD",
+      "letters": [
+        {
+          "char": "ع",
+          "name": "Ayn",
+          "isolated": "ع",
+          "initial": "عـ",
+          "medial": "ـعـ",
+          "final": "ـع",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "o"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "b"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "e"
+        }
+      ],
+      "diacritics": "عبید"
+    },
+    {
+      "farsi": "هم",
+      "transliteration": "ham",
+      "meaning": "also, together; even",
+      "pronunciation": "ham",
+      "letters": [
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "æ"
+        }
+      ],
+      "diacritics": "هم"
+    },
+    {
+      "farsi": "اگر",
+      "transliteration": "agar",
+      "meaning": "if",
+      "pronunciation": "a-GAR",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ʔ"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "æ"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "g"
+        }
+      ],
+      "diacritics": "اگر"
+    },
+    {
+      "farsi": "این",
+      "transliteration": "in",
+      "meaning": "this",
+      "pronunciation": "in",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "iː"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        }
+      ],
+      "diacritics": "این"
+    },
+    {
+      "farsi": "یادگار",
+      "transliteration": "yādgār",
+      "meaning": "souvenir, legacy, memorial",
+      "pronunciation": "yād-GĀR",
+      "letters": [
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "g"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "diacritics": "یادگار"
+    }
+  ]
+}

@@ -1,15 +1,16 @@
 /**
- * Fetch a poem from Ganjoor and save raw data for Claude Code to annotate.
+ * Fetch a poem from Ganjoor and save raw data for the poem annotation pipeline.
  *
  * Usage:
  *   npm run fetch-poem https://ganjoor.net/hafez/ghazal/sh1/
  *
- * This saves stories/drafts/raw-<slug>.json, then Claude Code annotates
- * every word and writes the final draft + ingests it.
+ * This saves stories/drafts/raw-<slug>.json, then prepare-poem-annotation
+ * resolves known words before a model only annotates the missing ones.
  */
 
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
+import { buildDiacriticsMap, canonicalizeSurfaceText, extractUniqueWords } from './lib/persian';
 
 interface GanjoorVerse {
   vOrder: number;
@@ -75,16 +76,11 @@ async function run(ganjoorUrl: string) {
   const poem: GanjoorPoem = await resp.json();
   console.log(`Found: "${poem.title}" — ${poem.verses.length} verses`);
 
-  const fullText  = buildFullText(poem.verses);
+  const rawFullText = buildFullText(poem.verses);
+  const fullText  = canonicalizeSurfaceText(rawFullText);
   const poetName  = extractPoetName(poem);
-
-  // Collect unique tokens in order of first appearance
-  const allTokens    = fullText.match(/[\p{L}\p{N}]+/gu) ?? [];
-  const seen         = new Set<string>();
-  const uniqueWords: string[] = [];
-  for (const t of allTokens) {
-    if (!seen.has(t)) { seen.add(t); uniqueWords.push(t); }
-  }
+  const uniqueWords = extractUniqueWords(fullText);
+  const diacriticsMap = buildDiacriticsMap(rawFullText);
 
   const raw = {
     title:        poem.title,
@@ -93,6 +89,7 @@ async function run(ganjoorUrl: string) {
     ganjoor_url:  poem.fullUrl ?? normalized,
     full_text:    fullText,
     unique_words: uniqueWords,
+    diacritics_map: diacriticsMap,
   };
 
   const slug     = path.replace(/\//g, '-').replace(/^-/, '');
@@ -101,7 +98,7 @@ async function run(ganjoorUrl: string) {
 
   console.log(`\nRaw poem saved: stories/drafts/raw-${slug}.json`);
   console.log(`Unique words:   ${uniqueWords.length}`);
-  console.log(`\nNext: ask Claude Code to annotate and ingest stories/drafts/raw-${slug}.json`);
+  console.log(`\nNext: run npm run prepare-poem-annotation stories/drafts/raw-${slug}.json`);
 }
 
 const inputUrl = process.argv[2];

@@ -2,12 +2,15 @@
 
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
-import type { StoryWithWords, Word } from '@/lib/types';
+import type { ReadingDocument, Word } from '@/lib/types';
 import ClickableWord from './ClickableWord';
 import WordDialog from './WordDialog';
 
 interface Props {
-  story: StoryWithWords;
+  document: ReadingDocument;
+  backHref?: string;
+  backLabel?: string;
+  showHeader?: boolean;
 }
 
 type Token =
@@ -25,7 +28,12 @@ function tokenize(text: string, words: Word[]): Token[] {
 }
 
 
-export default function ReadingView({ story }: Props) {
+export default function ReadingView({
+  document,
+  backHref = '/',
+  backLabel = 'Back to home',
+  showHeader = true,
+}: Props) {
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
   const [anchorRect, setAnchorRect]     = useState<DOMRect | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
@@ -46,33 +54,35 @@ export default function ReadingView({ story }: Props) {
     <div className="min-h-screen px-4 py-10 max-w-3xl mx-auto animate-fade-in">
       {/* Back button */}
       <Link
-        href="/"
+        href={backHref}
         className="inline-flex items-center gap-2 text-sm text-zinc-400
                    hover:text-white transition-colors mb-10"
         dir="ltr"
       >
-        ← Back to stories
+        ← {backLabel}
       </Link>
 
       {/* Story header */}
-      <header className="mb-8 text-right">
-        <h1 className="text-4xl font-bold text-white mb-2" style={farsiFont}>
-          {story.title}
-        </h1>
-        <p className="text-zinc-400" dir="ltr">
-          {story.title_en}
-        </p>
-      </header>
+      {showHeader && (
+        <header className="mb-8 text-right">
+          <h1 className="text-4xl font-bold text-white mb-2" style={farsiFont}>
+            {document.title}
+          </h1>
+          <p className="text-zinc-400" dir="ltr">
+            {document.title_en}
+          </p>
+        </header>
+      )}
 
       {/* Reading area */}
       <article
         dir="rtl"
-        className={`leading-loose text-2xl sm:text-4xl text-white mb-12${story.layout === 'poem' ? ' text-center' : ''}`}
+        className={`leading-loose text-2xl sm:text-4xl text-white mb-12${document.layout === 'poem' ? ' text-center' : ''}`}
         style={farsiFont}
       >
-        {story.layout === 'poem'
-          ? story.full_text.split('\n').flatMap((line, li, arr) => {
-              const tokens = tokenize(line, story.words).map((token, i) =>
+        {document.layout === 'poem'
+          ? document.full_text.split('\n').flatMap((line, li, arr) => {
+              const tokens = tokenize(line, document.words).map((token, i) =>
                 token.type === 'word' ? (
                   <ClickableWord key={`${li}-${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
                 ) : (
@@ -82,7 +92,7 @@ export default function ReadingView({ story }: Props) {
               if (li < arr.length - 1) tokens.push(<br key={`br-${li}`} />);
               return tokens;
             })
-          : tokenize(story.full_text, story.words).map((token, i) =>
+          : tokenize(document.full_text, document.words).map((token, i) =>
               token.type === 'word' ? (
                 <ClickableWord key={`${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
               ) : (
@@ -104,7 +114,7 @@ export default function ReadingView({ story }: Props) {
         </button>
         {showTranslation && (
           <p className="text-zinc-400 leading-relaxed mt-3 animate-fade-in whitespace-pre-line">
-            {story.translation}
+            {document.translation}
           </p>
         )}
       </section>

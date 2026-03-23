@@ -26,6 +26,15 @@ export interface Word {
 export type StoryLayout = 'prose' | 'poem';
 export type StorySource = 'original' | 'ganjoor';
 
+export interface ReadingDocument {
+  title: string;
+  title_en: string;
+  full_text: string;
+  translation: string;
+  words: Word[];
+  layout: StoryLayout;
+}
+
 export interface Story {
   id: string;
   title: string;
@@ -41,6 +50,32 @@ export interface Story {
 }
 
 export interface StoryWithWords extends Story {
+  words: Word[];
+}
+
+export interface DailyDebrief {
+  id: string;
+  debrief_date: string;
+  title: string;
+  title_en: string;
+  summary: string;
+  full_text: string;
+  translation: string;
+  published: boolean;
+  created_at: string;
+  layout: 'prose';
+}
+
+export interface DailyDebriefCard {
+  id: string;
+  debrief_date: string;
+  title: string;
+  title_en: string;
+  summary: string;
+  full_text: string;
+}
+
+export interface DailyDebriefWithWords extends DailyDebrief {
   words: Word[];
 }
 
@@ -94,4 +129,14 @@ export interface DraftStory {
   layout?: 'prose' | 'poem';
   source?: 'original' | 'ganjoor';
   ganjoor_id?: number;
+}
+
+export interface DraftDailyDebrief {
+  debrief_date: string;
+  title: string;
+  title_en: string;
+  summary: string;
+  full_text: string;
+  translation: string;
+  words: DraftWord[];
 }

@@ -30,5 +30,5 @@ export default async function StoryPage({ params }: { params: Promise<{ id: stri
   } catch {
     notFound();
   }
-  return <ReadingView story={story} />;
+  return <ReadingView document={story} backLabel="Back to home" />;
 }
