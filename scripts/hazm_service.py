@@ -57,8 +57,13 @@ def init_models():
     word_tokenizer = WordTokenizer()
     sent_tokenizer = SentenceTokenizer()
     lemmatizer = Lemmatizer()
-    tagger = POSTagger(model="pos_tagger.model")
-    parser = DependencyParser(model="dependency_parser.model")
+    tagger = POSTagger(repo_id="roshan-research/hazm-postagger", model_filename="pos_tagger.model")
+    parser = DependencyParser(
+        tagger=tagger,
+        lemmatizer=lemmatizer,
+        repo_id="roshan-research/hazm-dependency-parser",
+        model_filename="langModel.mco",
+    )
     return normalizer, word_tokenizer, sent_tokenizer, lemmatizer, tagger, parser
 
 
@@ -69,10 +74,12 @@ def analyze_sentence(text, word_tokenizer, lemmatizer, tagger, parser):
         return []
 
     tagged = tagger.tag(words)
+    parsed = None
     try:
         parsed = parser.parse(tagged)
         deps = list(parsed.triples()) if parsed else []
     except Exception:
+        parsed = None
         deps = []
 
     # Build dependency info from the parse tree

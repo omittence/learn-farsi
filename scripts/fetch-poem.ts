@@ -69,12 +69,7 @@ async function run(ganjoorUrl: string) {
   const path   = urlObj.pathname.replace(/\/$/, '') || '/';
 
   console.log(`Fetching: ${path}`);
-  const resp = await fetch(`https://api.ganjoor.net/api/v2/poems/byurl?url=${path}`);
-  if (!resp.ok) {
-    console.error(`Ganjoor API error: ${resp.status} ${resp.statusText}`);
-    process.exit(1);
-  }
-  const poem: GanjoorPoem = await resp.json();
+  const poem: GanjoorPoem = await fetchPoemByPath(path);
   console.log(`Found: "${poem.title}" — ${poem.verses.length} verses`);
 
   const rawFullText = buildFullText(poem.verses);
@@ -115,6 +110,25 @@ async function run(ganjoorUrl: string) {
   console.log(`\nRaw poem saved: stories/drafts/raw-${slug}.json`);
   console.log(`Unique words:   ${uniqueWords.length}`);
   console.log(`\nNext: run npm run prepare-poem-annotation stories/drafts/raw-${slug}.json`);
+}
+
+async function fetchPoemByPath(path: string) {
+  const encodedPath = encodeURIComponent(path);
+  const v2Resp = await fetch(`https://api.ganjoor.net/api/v2/poems/byurl?url=${encodedPath}`);
+  if (v2Resp.ok) {
+    return v2Resp.json();
+  }
+
+  if (v2Resp.status === 404) {
+    console.log('Ganjoor API v2 returned 404, falling back to legacy endpoint.');
+    const legacyResp = await fetch(`https://api.ganjoor.net/api/ganjoor/poem?url=${encodedPath}`);
+    if (legacyResp.ok) {
+      return legacyResp.json();
+    }
+    throw new Error(`Legacy Ganjoor API error: ${legacyResp.status} ${legacyResp.statusText}`);
+  }
+
+  throw new Error(`Ganjoor API error: ${v2Resp.status} ${v2Resp.statusText}`);
 }
 
 const inputUrl = process.argv[2];
