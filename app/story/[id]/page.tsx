@@ -31,7 +31,7 @@ export default async function StoryPage({ params }: { params: Promise<{ id: stri
     notFound();
   }
 
-  let sentences;
+  let sentences: Awaited<ReturnType<typeof getSentencesForDocument>> | undefined = undefined;
   try {
     sentences = await getSentencesForDocument(id, 'story');
   } catch {}

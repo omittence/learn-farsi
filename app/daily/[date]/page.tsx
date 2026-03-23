@@ -39,7 +39,7 @@ export default async function DailyDebriefPage({ params }: { params: Promise<{ d
     archiveDates = await getDailyDebriefArchiveDates();
   } catch {}
 
-  let sentences;
+  let sentences: Awaited<ReturnType<typeof getSentencesForDocument>> | undefined = undefined;
   try {
     sentences = await getSentencesForDocument(debrief.id, 'daily_debrief');
   } catch {}
