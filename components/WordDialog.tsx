@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import type { Word, Letter } from '@/lib/types';
 
 interface Props {
@@ -35,6 +35,32 @@ export default function WordDialog({ word, anchorRect, onClose }: Props) {
   useEffect(() => {
     dialogRef.current?.focus();
   }, []);
+
+  const dragY = useRef(0);
+
+  const handleDragStart = useCallback((e: React.TouchEvent) => {
+    dragY.current = e.touches[0].clientY;
+    if (dialogRef.current) {
+      dialogRef.current.style.transition = 'none';
+    }
+  }, []);
+
+  const handleDragMove = useCallback((e: React.TouchEvent) => {
+    if (!dialogRef.current) return;
+    const dy = Math.max(0, e.touches[0].clientY - dragY.current);
+    dialogRef.current.style.transform = `translateY(${dy}px)`;
+  }, []);
+
+  const handleDragEnd = useCallback((e: React.TouchEvent) => {
+    if (!dialogRef.current) return;
+    const dy = Math.max(0, e.changedTouches[0].clientY - dragY.current);
+    if (dy > 100) {
+      onClose();
+    } else {
+      dialogRef.current.style.transition = 'transform 0.25s ease';
+      dialogRef.current.style.transform = '';
+    }
+  }, [onClose]);
 
   // Desktop: anchor below the clicked word.
   // anchorRect is viewport-relative (from getBoundingClientRect), and the dialog
@@ -79,13 +105,23 @@ export default function WordDialog({ word, anchorRect, onClose }: Props) {
       >
         {/* Drag handle (mobile only) */}
         {isMobile && (
-          <div className="flex justify-center pt-3 pb-1">
+          <div
+            className="flex justify-center pt-3 pb-1 cursor-grab active:cursor-grabbing"
+            onTouchStart={handleDragStart}
+            onTouchMove={handleDragMove}
+            onTouchEnd={handleDragEnd}
+          >
             <div className="w-10 h-1 rounded-full bg-white/20" />
           </div>
         )}
 
         {/* Header */}
-        <div className="relative px-5 pt-4 pb-3 border-b border-white/10">
+        <div
+          className="relative px-5 pt-4 pb-3 border-b border-white/10"
+          onTouchStart={isMobile ? handleDragStart : undefined}
+          onTouchMove={isMobile ? handleDragMove : undefined}
+          onTouchEnd={isMobile ? handleDragEnd : undefined}
+        >
           <button
             onClick={onClose}
             className="absolute top-3 left-4 text-zinc-500 hover:text-white

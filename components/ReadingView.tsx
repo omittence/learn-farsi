@@ -70,19 +70,26 @@ export default function ReadingView({ story }: Props) {
         className={`leading-loose text-2xl sm:text-4xl text-white mb-12${story.layout === 'poem' ? ' text-center' : ''}`}
         style={farsiFont}
       >
-        {tokenize(story.full_text, story.words).map((token, i) =>
-          token.type === 'word' ? (
-            <ClickableWord
-              key={`${token.word.id}-${i}`}
-              word={token.word}
-              onClick={handleWordClick}
-            />
-          ) : (
-            <span key={i} className="text-zinc-300">
-              {token.text}
-            </span>
-          )
-        )}
+        {story.layout === 'poem'
+          ? story.full_text.split('\n').flatMap((line, li, arr) => {
+              const tokens = tokenize(line, story.words).map((token, i) =>
+                token.type === 'word' ? (
+                  <ClickableWord key={`${li}-${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
+                ) : (
+                  <span key={`${li}-t-${i}`} className="text-zinc-300">{token.text}</span>
+                )
+              );
+              if (li < arr.length - 1) tokens.push(<br key={`br-${li}`} />);
+              return tokens;
+            })
+          : tokenize(story.full_text, story.words).map((token, i) =>
+              token.type === 'word' ? (
+                <ClickableWord key={`${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
+              ) : (
+                <span key={i} className="text-zinc-300">{token.text}</span>
+              )
+            )
+        }
       </article>
 
       {/* English translation */}
