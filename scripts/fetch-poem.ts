@@ -10,7 +10,8 @@
 
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { buildDiacriticsMap, canonicalizeSurfaceText, extractUniqueWords } from './lib/persian';
+import { buildDiacriticsMap, canonicalizeSurfaceText, enrichWithHazm, extractUniqueWords } from './lib/persian';
+import type { DraftSentence } from '../lib/types';
 
 interface GanjoorVerse {
   vOrder: number;
@@ -82,6 +83,19 @@ async function run(ganjoorUrl: string) {
   const uniqueWords = extractUniqueWords(fullText);
   const diacriticsMap = buildDiacriticsMap(rawFullText);
 
+  // Run hazm enrichment for POS/lemma/sentence data (poems use newline splitting)
+  let wordMeta: Record<string, { pos: string; lemma: string }> | undefined;
+  let sentences: DraftSentence[] | undefined;
+  try {
+    console.log('Running hazm NLP enrichment...');
+    const enrichment = await enrichWithHazm(fullText, true);
+    wordMeta = Object.fromEntries(enrichment.tokenMeta);
+    sentences = enrichment.sentences;
+    console.log(`  Hazm: ${enrichment.tokens.length} tokens, ${sentences.length} verse-sentences`);
+  } catch (err) {
+    console.warn(`  Hazm enrichment failed (continuing without): ${err}`);
+  }
+
   const raw = {
     title:        poem.title,
     title_en:     `${poetName} — ${poem.title}`,
@@ -90,6 +104,8 @@ async function run(ganjoorUrl: string) {
     full_text:    fullText,
     unique_words: uniqueWords,
     diacritics_map: diacriticsMap,
+    word_meta:    wordMeta,
+    sentences,
   };
 
   const slug     = path.replace(/\//g, '-').replace(/^-/, '');

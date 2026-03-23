@@ -12,7 +12,8 @@
     "fetch-poem": "tsx scripts/fetch-poem.ts",
     "prepare-poem-annotation": "tsx scripts/prepare-poem-annotation.ts",
     "finalize-poem": "tsx scripts/finalize-poem.ts",
-    "generate-daily-debrief": "tsx scripts/generate-daily-debrief.ts"
+    "generate-daily-debrief": "tsx scripts/generate-daily-debrief.ts",
+    "backfill-hazm": "tsx scripts/backfill-hazm.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

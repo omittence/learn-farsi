@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getAllStoryIds, getStoryWithWords } from '@/lib/queries';
+import { getAllStoryIds, getStoryWithWords, getSentencesForDocument } from '@/lib/queries';
 import ReadingView from '@/components/ReadingView';
 
 export const dynamic = 'force-static';
@@ -30,5 +30,12 @@ export default async function StoryPage({ params }: { params: Promise<{ id: stri
   } catch {
     notFound();
   }
-  return <ReadingView document={story} backLabel="Back to home" />;
+
+  let sentences;
+  try {
+    sentences = await getSentencesForDocument(id, 'story');
+  } catch {}
+
+  const document = sentences?.length ? { ...story, sentences } : story;
+  return <ReadingView document={document} backLabel="Back to home" />;
 }

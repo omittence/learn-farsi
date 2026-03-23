@@ -46,18 +46,19 @@ function validateDraft(draft: DraftDailyDebrief) {
 }
 
 async function upsertWord(w: DraftWord): Promise<{ id: string; created: boolean }> {
+  const insertData: Record<string, string> = {
+    farsi: w.farsi,
+    transliteration: w.transliteration,
+    meaning: w.meaning,
+    pronunciation: w.pronunciation,
+    diacritics: w.diacritics,
+  };
+  if (w.pos) insertData.pos = w.pos;
+  if (w.lemma) insertData.lemma = w.lemma;
+
   const { data: wordRow } = await supabase
     .from('words')
-    .upsert(
-      {
-        farsi: w.farsi,
-        transliteration: w.transliteration,
-        meaning: w.meaning,
-        pronunciation: w.pronunciation,
-        diacritics: w.diacritics,
-      },
-      { onConflict: 'farsi', ignoreDuplicates: true }
-    )
+    .upsert(insertData, { onConflict: 'farsi', ignoreDuplicates: true })
     .select('id')
     .single();
 
@@ -152,6 +153,66 @@ async function ingest(filePath: string) {
         process.exit(1);
       }
     }
+  }
+
+  // Ingest sentences if available
+  if (draft.sentences && draft.sentences.length > 0) {
+    console.log(`\nIngesting ${draft.sentences.length} sentences...`);
+
+    // Build a map of farsi -> word_id for linking sentence_words
+    const wordIdMap = new Map<string, string>();
+    for (const w of draft.words) {
+      const { data } = await supabase
+        .from('words')
+        .select('id')
+        .eq('farsi', w.farsi)
+        .single();
+      if (data) wordIdMap.set(w.farsi, data.id);
+    }
+
+    for (let si = 0; si < draft.sentences.length; si++) {
+      const sent = draft.sentences[si];
+      const { data: sentRow, error: sentErr } = await supabase
+        .from('sentences')
+        .insert({
+          document_id: debriefId,
+          document_type: 'daily_debrief',
+          text: sent.text,
+          translation: sent.translation ?? null,
+          sort_order: si,
+        })
+        .select('id')
+        .single();
+
+      if (sentErr || !sentRow) {
+        console.error(`Failed to insert sentence ${si}:`, sentErr?.message);
+        continue;
+      }
+
+      const swRows = sent.tokens
+        .map((tok, ti) => {
+          const wordId = wordIdMap.get(tok.surface);
+          if (!wordId) return null;
+          return {
+            sentence_id: sentRow.id,
+            word_id: wordId,
+            sort_order: ti,
+            dep_head: tok.dep_head,
+            dep_rel: tok.dep_rel,
+          };
+        })
+        .filter(Boolean);
+
+      if (swRows.length > 0) {
+        const { error: swErr } = await supabase
+          .from('sentence_words')
+          .insert(swRows);
+        if (swErr) {
+          console.error(`Failed to insert sentence_words for sentence ${si}:`, swErr.message);
+        }
+      }
+    }
+    console.log(`Sentences ingested: ${draft.sentences.length}`);
   }
 
   console.log(`\nDone! Daily debrief "${draft.title_en}" ingested successfully.`);

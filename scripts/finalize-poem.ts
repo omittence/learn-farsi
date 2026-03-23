@@ -1,8 +1,8 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, resolve } from 'path';
-import type { DraftStory, DraftWord } from '../lib/types';
+import type { DraftSentence, DraftStory, DraftWord } from '../lib/types';
 import { ensureWordLetters, upsertCacheEntries } from './lib/lexicon';
-import type { MissingWordsFile, PoemAnnotationScaffold } from './lib/poem-files';
+import type { MissingWordsFile, PoemAnnotationScaffold, RawPoemDraft } from './lib/poem-files';
 
 function requireArg(): string {
   const filePath = process.argv[2];
@@ -27,6 +27,12 @@ async function run(filePath: string) {
   const absoluteMissingPath = resolve(dirname(scaffoldPath), scaffold.missing_words_path.split('/').pop() ?? '');
   const missingFile = JSON.parse(readFileSync(absoluteMissingPath, 'utf8')) as MissingWordsFile;
 
+  // Load raw poem for hazm-enriched data (sentences, word_meta)
+  const rawPath = resolve(process.cwd(), scaffold.source_raw_path);
+  const rawPoemData = existsSync(rawPath)
+    ? (JSON.parse(readFileSync(rawPath, 'utf8')) as RawPoemDraft)
+    : null;
+
   if (!scaffold.description.trim()) {
     throw new Error(`Description is empty in ${filePath}`);
   }
@@ -36,6 +42,7 @@ async function run(filePath: string) {
 
   const wordsByFarsi = new Map<string, DraftWord>();
   for (const word of scaffold.reused_words) {
+    const meta = rawPoemData?.word_meta?.[word.farsi];
     const ensured = ensureWordLetters({
       farsi: word.farsi,
       transliteration: word.transliteration,
@@ -43,6 +50,8 @@ async function run(filePath: string) {
       pronunciation: word.pronunciation,
       diacritics: word.diacritics,
       letters: word.letters,
+      pos: word.pos ?? meta?.pos,
+      lemma: word.lemma ?? meta?.lemma,
     });
     validateWord(ensured);
     wordsByFarsi.set(ensured.farsi, ensured);
@@ -50,6 +59,7 @@ async function run(filePath: string) {
 
   const newlyAnnotated: DraftWord[] = [];
   for (const word of missingFile.words) {
+    const meta = rawPoemData?.word_meta?.[word.farsi];
     const ensured = ensureWordLetters({
       farsi: word.farsi,
       transliteration: word.transliteration,
@@ -57,6 +67,8 @@ async function run(filePath: string) {
       pronunciation: word.pronunciation,
       diacritics: word.diacritics || word.farsi,
       letters: [],
+      pos: word.pos ?? meta?.pos,
+      lemma: word.lemma ?? meta?.lemma,
     });
     validateWord(ensured);
     wordsByFarsi.set(ensured.farsi, ensured);
@@ -84,6 +96,7 @@ async function run(filePath: string) {
     full_text: scaffold.full_text,
     translation: scaffold.translation,
     words: orderedWords,
+    sentences: rawPoemData?.sentences,
     layout: scaffold.layout,
     source: scaffold.source,
     ganjoor_id: scaffold.ganjoor_id,

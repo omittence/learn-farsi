@@ -53,6 +53,7 @@ async function run(filePath: string) {
     const resolved = fromDb ?? fromCache;
 
     if (resolved) {
+      const meta = raw.word_meta?.[farsi];
       reusedWords.push({
         farsi,
         transliteration: resolved.transliteration,
@@ -60,12 +61,15 @@ async function run(filePath: string) {
         pronunciation: resolved.pronunciation,
         letters: resolved.letters,
         diacritics: diacritics || resolved.diacritics,
+        pos: meta?.pos ?? resolved.pos,
+        lemma: meta?.lemma ?? resolved.lemma,
       });
       if (resolved.source === 'db') reusedFromDb += 1;
       if (resolved.source === 'cache') reusedFromCache += 1;
       continue;
     }
 
+    const meta = raw.word_meta?.[farsi];
     missingWords.push({
       farsi,
       normalized,
@@ -73,6 +77,8 @@ async function run(filePath: string) {
       transliteration: '',
       meaning: '',
       pronunciation: '',
+      pos: meta?.pos,
+      lemma: meta?.lemma,
     });
   }
 

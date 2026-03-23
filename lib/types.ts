@@ -20,6 +20,8 @@ export interface Word {
   meaning: string;
   pronunciation: string;
   diacritics: string;
+  pos?: string;
+  lemma?: string;
   letters: Letter[];
 }
 
@@ -33,6 +35,7 @@ export interface ReadingDocument {
   translation: string;
   words: Word[];
   layout: StoryLayout;
+  sentences?: SentenceWithWords[];
 }
 
 export interface Story {
@@ -115,6 +118,8 @@ export interface DraftWord {
   meaning: string;
   pronunciation: string;
   diacritics: string;
+  pos?: string;
+  lemma?: string;
   letters: DraftLetter[];
 }
 
@@ -126,6 +131,7 @@ export interface DraftStory {
   full_text: string;
   translation: string;
   words: DraftWord[];
+  sentences?: DraftSentence[];
   layout?: 'prose' | 'poem';
   source?: 'original' | 'ganjoor';
   ganjoor_id?: number;
@@ -139,4 +145,42 @@ export interface DraftDailyDebrief {
   full_text: string;
   translation: string;
   words: DraftWord[];
+  sentences?: DraftSentence[];
+}
+
+// Sentence-level types for hazm NLP integration
+
+export interface Sentence {
+  id: string;
+  document_id: string;
+  document_type: 'story' | 'daily_debrief';
+  text: string;
+  translation: string | null;
+  sort_order: number;
+}
+
+export interface SentenceWord {
+  sentence_id: string;
+  word_id: string;
+  sort_order: number;
+  dep_head: number | null;
+  dep_rel: string | null;
+}
+
+export interface SentenceWithWords extends Sentence {
+  words: (Word & { dep_head: number | null; dep_rel: string | null })[];
+}
+
+export interface DraftSentenceToken {
+  surface: string;
+  lemma: string;
+  pos: string;
+  dep_head: number;
+  dep_rel: string;
+}
+
+export interface DraftSentence {
+  text: string;
+  translation?: string;
+  tokens: DraftSentenceToken[];
 }

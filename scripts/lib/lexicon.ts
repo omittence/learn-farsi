@@ -75,6 +75,8 @@ export async function loadDbLexicon(): Promise<Map<string, ResolvedLexiconWord>>
       meaning,
       pronunciation,
       diacritics,
+      pos,
+      lemma,
       letters (
         char,
         name,
@@ -99,6 +101,8 @@ export async function loadDbLexicon(): Promise<Map<string, ResolvedLexiconWord>>
       meaning: row.meaning,
       pronunciation: row.pronunciation,
       diacritics: row.diacritics,
+      pos: row.pos ?? undefined,
+      lemma: row.lemma ?? undefined,
       letters: mapLetters(row.letters as Letter[]),
     });
 

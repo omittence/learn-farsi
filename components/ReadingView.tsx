@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
-import type { ReadingDocument, Word } from '@/lib/types';
+import type { ReadingDocument, SentenceWithWords, Word } from '@/lib/types';
 import ClickableWord from './ClickableWord';
 import WordDialog from './WordDialog';
 
@@ -37,6 +37,7 @@ export default function ReadingView({
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
   const [anchorRect, setAnchorRect]     = useState<DOMRect | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
+  const [hoveredSentence, setHoveredSentence] = useState<number | null>(null);
 
   const handleWordClick = useCallback((word: Word, rect: DOMRect) => {
     setSelectedWord(word);
@@ -80,25 +81,39 @@ export default function ReadingView({
         className={`leading-loose text-2xl sm:text-4xl text-white mb-12${document.layout === 'poem' ? ' text-center' : ''}`}
         style={farsiFont}
       >
-        {document.layout === 'poem'
-          ? document.full_text.split('\n').flatMap((line, li, arr) => {
-              const tokens = tokenize(line, document.words).map((token, i) =>
+        {document.sentences && document.sentences.length > 0
+          ? document.sentences.map((sent, si) => (
+              <SentenceBlock
+                key={sent.id}
+                sentence={sent}
+                allWords={document.words}
+                isPoem={document.layout === 'poem'}
+                isLast={si === document.sentences!.length - 1}
+                onWordClick={handleWordClick}
+                showTranslation={hoveredSentence === si}
+                onHover={() => setHoveredSentence(si)}
+                onLeave={() => setHoveredSentence(null)}
+              />
+            ))
+          : document.layout === 'poem'
+            ? document.full_text.split('\n').flatMap((line, li, arr) => {
+                const tokens = tokenize(line, document.words).map((token, i) =>
+                  token.type === 'word' ? (
+                    <ClickableWord key={`${li}-${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
+                  ) : (
+                    <span key={`${li}-t-${i}`} className="text-zinc-300">{token.text}</span>
+                  )
+                );
+                if (li < arr.length - 1) tokens.push(<br key={`br-${li}`} />);
+                return tokens;
+              })
+            : tokenize(document.full_text, document.words).map((token, i) =>
                 token.type === 'word' ? (
-                  <ClickableWord key={`${li}-${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
+                  <ClickableWord key={`${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
                 ) : (
-                  <span key={`${li}-t-${i}`} className="text-zinc-300">{token.text}</span>
+                  <span key={i} className="text-zinc-300">{token.text}</span>
                 )
-              );
-              if (li < arr.length - 1) tokens.push(<br key={`br-${li}`} />);
-              return tokens;
-            })
-          : tokenize(document.full_text, document.words).map((token, i) =>
-              token.type === 'word' ? (
-                <ClickableWord key={`${token.word.id}-${i}`} word={token.word} onClick={handleWordClick} />
-              ) : (
-                <span key={i} className="text-zinc-300">{token.text}</span>
               )
-            )
         }
       </article>
 
@@ -123,5 +138,61 @@ export default function ReadingView({
         <WordDialog word={selectedWord} anchorRect={anchorRect} onClose={handleClose} />
       )}
     </div>
+  );
+}
+
+function SentenceBlock({
+  sentence,
+  allWords,
+  isPoem,
+  isLast,
+  onWordClick,
+  showTranslation,
+  onHover,
+  onLeave,
+}: {
+  sentence: SentenceWithWords;
+  allWords: Word[];
+  isPoem: boolean;
+  isLast: boolean;
+  onWordClick: (word: Word, rect: DOMRect) => void;
+  showTranslation: boolean;
+  onHover: () => void;
+  onLeave: () => void;
+}) {
+  const tokens = tokenize(sentence.text, allWords);
+
+  return (
+    <span
+      className="inline cursor-pointer rounded-lg transition-colors hover:bg-white/5"
+      onClick={onHover}
+      onMouseEnter={onHover}
+      onMouseLeave={onLeave}
+    >
+      {tokens.map((token, i) =>
+        token.type === 'word' ? (
+          <ClickableWord
+            key={`${sentence.id}-${token.word.id}-${i}`}
+            word={token.word}
+            onClick={onWordClick}
+          />
+        ) : (
+          <span key={`${sentence.id}-t-${i}`} className="text-zinc-300">
+            {token.text}
+          </span>
+        ),
+      )}
+      {isPoem && !isLast && <br />}
+      {showTranslation && sentence.translation && (
+        <span
+          dir="ltr"
+          className="block text-sm text-zinc-400 mt-1 mb-3 animate-fade-in"
+          style={{ fontFamily: 'inherit' }}
+        >
+          {sentence.translation}
+        </span>
+      )}
+      {!isPoem && ' '}
+    </span>
   );
 }

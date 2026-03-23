@@ -2,8 +2,9 @@ import Anthropic from '@anthropic-ai/sdk';
 import { writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { config } from 'dotenv';
-import type { DraftDailyDebrief, DraftWord } from '../lib/types';
-import { tokenizePersianWords } from './lib/persian';
+import type { DraftDailyDebrief, DraftWord, DraftSentence } from '../lib/types';
+import { tokenizePersianWords, enrichWithHazm } from './lib/persian';
+import type { EnrichmentResult } from './lib/persian';
 
 config({ path: resolve(process.cwd(), '.env.local') });
 
@@ -71,11 +72,23 @@ Rules for full_text:
   return JSON.parse(extractJson(textBlock.text)) as ArticleDraft;
 }
 
-async function generateWordDefinitions(tokens: string[]): Promise<DraftWord[]> {
-  console.log(`\nStep 2: Generating definitions for ${tokens.length} tokens...`);
+async function generateWordDefinitions(
+  tokens: string[],
+  tokenMeta?: Map<string, { pos: string; lemma: string }>,
+): Promise<DraftWord[]> {
+  console.log(`\nStep 3: Generating definitions for ${tokens.length} tokens...`);
   console.log(`  Tokens: ${tokens.join(', ')}`);
 
-  const tokenList = tokens.map((t, i) => `${i + 1}. ${t}`).join('\n');
+  const tokenList = tokens
+    .map((t, i) => {
+      const meta = tokenMeta?.get(t);
+      if (meta) {
+        const hint = meta.lemma !== t ? `${meta.pos}, lemma: ${meta.lemma}` : meta.pos;
+        return `${i + 1}. ${t} (${hint})`;
+      }
+      return `${i + 1}. ${t}`;
+    })
+    .join('\n');
 
   const stream = client.messages.stream({
     model: 'claude-opus-4-6',
@@ -83,7 +96,7 @@ async function generateWordDefinitions(tokens: string[]): Promise<DraftWord[]> {
     thinking: { type: 'adaptive' },
     system: `You are a Farsi language expert creating vocabulary entries for language learners.
 
-You will be given a numbered list of Persian word tokens. Output a JSON array with one object per token, in the same order.
+You will be given a numbered list of Persian word tokens, some with part-of-speech and lemma hints in parentheses. Use the POS hint to disambiguate meanings for homographs. Output a JSON array with one object per token, in the same order.
 
 Each object must have exactly these fields:
 - "farsi": the EXACT token string as given in the list — copy it character for character, do not modify
@@ -131,21 +144,42 @@ async function generate(date: string) {
   console.log(`\n  Title: ${article.title_en}`);
   console.log(`  Text preview: ${article.full_text.slice(0, 80)}...`);
 
-  // Step 2: extract unique tokens programmatically — the source of truth for the ingest validator
-  const tokens = [...new Set(tokenizePersianWords(article.full_text))];
+  // Step 2: run through hazm for NLP enrichment (POS, lemma, sentences, deps)
+  console.log('\nStep 2: Running hazm NLP enrichment...');
+  let enrichment: EnrichmentResult | null = null;
+  let tokens: string[];
+  let sentences: DraftSentence[] | undefined;
+
+  try {
+    enrichment = await enrichWithHazm(article.full_text);
+    tokens = enrichment.tokens;
+    sentences = enrichment.sentences;
+    console.log(`  Hazm found ${tokens.length} tokens across ${sentences.length} sentences`);
+  } catch (err) {
+    console.warn(`  Hazm enrichment failed, falling back to regex tokenizer: ${err}`);
+    tokens = [...new Set(tokenizePersianWords(article.full_text))];
+  }
+
   if (tokens.length === 0) {
     throw new Error('No tokens extracted from full_text — check the generated article');
   }
 
-  // Step 3: generate definitions for exactly those tokens
-  const words = await generateWordDefinitions(tokens);
+  // Step 3: generate definitions for exactly those tokens (with POS hints from hazm)
+  const words = await generateWordDefinitions(tokens, enrichment?.tokenMeta);
 
   // Rebuild words array keyed by farsi, then ordered to match tokens exactly
   const wordMap = new Map(words.map((w) => [w.farsi, w]));
   const finalWords: DraftWord[] = tokens.map((token) => {
     const word = wordMap.get(token);
     if (!word) throw new Error(`Claude did not return a definition for token "${token}"`);
-    return { ...word, farsi: token, letters: [] };
+    const meta = enrichment?.tokenMeta.get(token);
+    return {
+      ...word,
+      farsi: token,
+      letters: [],
+      pos: meta?.pos,
+      lemma: meta?.lemma,
+    };
   });
 
   // Step 4: assemble and write
@@ -157,6 +191,7 @@ async function generate(date: string) {
     full_text: article.full_text,
     translation: article.translation,
     words: finalWords,
+    sentences,
   };
 
   writeFileSync(outPath, JSON.stringify(draft, null, 2), 'utf-8');

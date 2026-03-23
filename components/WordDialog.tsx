@@ -13,6 +13,20 @@ const DIALOG_W = 380;
 const GAP = 10;
 const EDGE_PAD = 12;
 
+function posColor(pos: string): string {
+  switch (pos) {
+    case 'noun':        return 'bg-blue-500/20 text-blue-300';
+    case 'verb':        return 'bg-green-500/20 text-green-300';
+    case 'adjective':   return 'bg-amber-500/20 text-amber-300';
+    case 'adverb':      return 'bg-purple-500/20 text-purple-300';
+    case 'pronoun':     return 'bg-cyan-500/20 text-cyan-300';
+    case 'preposition': return 'bg-rose-500/20 text-rose-300';
+    case 'conjunction': return 'bg-orange-500/20 text-orange-300';
+    case 'number':      return 'bg-teal-500/20 text-teal-300';
+    default:            return 'bg-zinc-500/20 text-zinc-300';
+  }
+}
+
 export default function WordDialog({ word, anchorRect, onClose }: Props) {
   const dialogRef = useRef<HTMLDivElement>(null);
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
@@ -137,6 +151,11 @@ export default function WordDialog({ word, anchorRect, onClose }: Props) {
             {word.farsi}
           </p>
 
+          {word.pos && (
+            <span className={`inline-block text-[10px] uppercase tracking-wider font-medium px-2 py-0.5 rounded-full ${posColor(word.pos)}`}>
+              {word.pos}
+            </span>
+          )}
         </div>
 
         {/* Scrollable body */}
@@ -149,6 +168,12 @@ export default function WordDialog({ word, anchorRect, onClose }: Props) {
             <InfoRow label="Meaning"         value={word.meaning} />
             <InfoRow label="Transliteration" value={word.transliteration} mono />
             <InfoRow label="Pronunciation"   value={word.pronunciation} />
+            {word.lemma && word.lemma !== word.farsi && (
+              <div>
+                <p className="text-[10px] uppercase tracking-widest text-zinc-500 mb-0.5">Dictionary Form</p>
+                <p className="text-sm text-zinc-100" dir="rtl" style={farsiFont}>{word.lemma}</p>
+              </div>
+            )}
           </div>
 
           {/* Letters */}

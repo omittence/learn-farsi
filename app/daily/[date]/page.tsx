@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import DailyDebriefCalendar from '@/components/DailyDebriefCalendar';
 import ReadingView from '@/components/ReadingView';
 import { formatDebriefDate, isIsoDate } from '@/lib/dates';
-import { getDailyDebriefArchiveDates, getDailyDebriefByDate } from '@/lib/queries';
+import { getDailyDebriefArchiveDates, getDailyDebriefByDate, getSentencesForDocument } from '@/lib/queries';
 
 export const dynamic = 'force-dynamic';
 
@@ -39,6 +39,13 @@ export default async function DailyDebriefPage({ params }: { params: Promise<{ d
     archiveDates = await getDailyDebriefArchiveDates();
   } catch {}
 
+  let sentences;
+  try {
+    sentences = await getSentencesForDocument(debrief.id, 'daily_debrief');
+  } catch {}
+
+  const debriefWithSentences = sentences?.length ? { ...debrief, sentences } : debrief;
+
   return (
     <main className="min-h-screen px-6 py-16 max-w-6xl mx-auto">
       <section className="mb-10 animate-fade-in">
@@ -65,7 +72,7 @@ export default async function DailyDebriefPage({ params }: { params: Promise<{ d
         </div>
       </section>
 
-      <ReadingView document={debrief} backLabel="Back to home" showHeader={false} />
+      <ReadingView document={debriefWithSentences} backLabel="Back to home" showHeader={false} />
     </main>
   );
 }

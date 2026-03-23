@@ -1,4 +1,6 @@
-import type { DraftLetter } from '../../lib/types';
+import type { DraftLetter, DraftSentence } from '../../lib/types';
+import { startHazm } from './hazm-client';
+import type { HazmResult } from './hazm-client';
 
 const ARABIC_DIACRITICS_RE = /[\u064B-\u065F\u0670\u06D6-\u06ED]/gu;
 const TATWEEL_RE = /\u0640/gu;
@@ -97,6 +99,58 @@ export function buildDiacriticsMap(text: string): Record<string, string> {
   }
 
   return map;
+}
+
+export interface EnrichmentResult {
+  normalizedText: string;
+  tokens: string[];
+  sentences: DraftSentence[];
+  tokenMeta: Map<string, { pos: string; lemma: string }>;
+}
+
+/**
+ * Run text through hazm for full NLP enrichment.
+ * Returns normalized text, tokens, sentence structure, and per-token POS/lemma.
+ */
+export async function enrichWithHazm(
+  text: string,
+  splitOnNewlines = false,
+): Promise<EnrichmentResult> {
+  const hazm = await startHazm();
+  try {
+    const result: HazmResult = await hazm.analyze(text, splitOnNewlines);
+
+    const tokenSet = new Set<string>();
+    const tokens: string[] = [];
+    const tokenMeta = new Map<string, { pos: string; lemma: string }>();
+
+    const sentences: DraftSentence[] = result.sentences.map((sent) => ({
+      text: sent.text,
+      tokens: sent.tokens.map((tok) => {
+        if (!tokenSet.has(tok.surface)) {
+          tokenSet.add(tok.surface);
+          tokens.push(tok.surface);
+          tokenMeta.set(tok.surface, { pos: tok.pos, lemma: tok.lemma });
+        }
+        return {
+          surface: tok.surface,
+          lemma: tok.lemma,
+          pos: tok.pos,
+          dep_head: tok.dep_head,
+          dep_rel: tok.dep_rel,
+        };
+      }),
+    }));
+
+    return {
+      normalizedText: result.normalized_text,
+      tokens,
+      sentences,
+      tokenMeta,
+    };
+  } finally {
+    await hazm.stop();
+  }
 }
 
 export function generateLetters(word: string): DraftLetter[] {

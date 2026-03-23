@@ -1,5 +1,5 @@
 import { basename } from 'path';
-import type { DraftWord } from '../../lib/types';
+import type { DraftSentence, DraftWord } from '../../lib/types';
 
 export interface RawPoemDraft {
   title: string;
@@ -9,6 +9,8 @@ export interface RawPoemDraft {
   full_text: string;
   unique_words: string[];
   diacritics_map?: Record<string, string>;
+  word_meta?: Record<string, { pos: string; lemma: string }>;
+  sentences?: DraftSentence[];
 }
 
 export interface MissingWordCandidate {
@@ -18,6 +20,8 @@ export interface MissingWordCandidate {
   transliteration: string;
   meaning: string;
   pronunciation: string;
+  pos?: string;
+  lemma?: string;
 }
 
 export interface PoemAnnotationScaffold {

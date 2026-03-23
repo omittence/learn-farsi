@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.roshan-ai.ir)",
+      "WebFetch(domain:pypi.org)",
+      "WebSearch",
+      "Read(//c/Users/omid.barat/**)"
+    ]
+  }
+}
