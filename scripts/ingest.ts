@@ -178,6 +178,7 @@ async function ingest(filePath: string) {
           text: sent.text,
           translation: sent.translation ?? null,
           sort_order: si,
+          image_url: sent.image_url ?? null,
         })
         .select('id')
         .single();

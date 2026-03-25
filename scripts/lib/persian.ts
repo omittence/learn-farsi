@@ -43,6 +43,7 @@ const LETTER_SPECS: Record<string, LetterSpec> = {
   'و': { name: 'Vav', isolated: 'و', initial: 'و', medial: 'ـو', final: 'ـو', sound: 'v' },
   'ؤ': { name: 'Vav with Hamza', isolated: 'ؤ', initial: 'ؤ', medial: 'ـؤ', final: 'ـؤ', sound: 'ʔ' },
   'ه': { name: 'He', isolated: 'ه', initial: 'هـ', medial: 'ـهـ', final: 'ـه', sound: 'h' },
+  'ھ': { name: 'He (Dari)', isolated: 'ھ', initial: 'ھـ', medial: 'ـھـ', final: 'ـھ', sound: 'h' },
   'ی': { name: 'Ye', isolated: 'ی', initial: 'یـ', medial: 'ـیـ', final: 'ـی', sound: 'j' },
   'ئ': { name: 'Ye with Hamza', isolated: 'ئ', initial: 'ئـ', medial: 'ـئـ', final: 'ـئ', sound: 'ʔ' },
 };

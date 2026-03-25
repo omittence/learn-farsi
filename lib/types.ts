@@ -157,6 +157,7 @@ export interface Sentence {
   text: string;
   translation: string | null;
   sort_order: number;
+  image_url?: string | null;
 }
 
 export interface SentenceWord {
@@ -182,5 +183,6 @@ export interface DraftSentenceToken {
 export interface DraftSentence {
   text: string;
   translation?: string;
+  image_url?: string;
   tokens: DraftSentenceToken[];
 }

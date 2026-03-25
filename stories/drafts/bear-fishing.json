@@ -1,0 +1,1300 @@
+{
+  "title": "خرس به ماهی گیری می رود!",
+  "title_en": "The Bear Goes Fishing!",
+  "level": "Beginner",
+  "description": "A clever bear tries to catch fish for his jar, but the fish are smarter than he thinks.",
+  "layout": "prose",
+  "source": "original",
+  "full_text": "خرس می خواھد کھ خانھ خود را تزیین کند. او تصمیم دارد تعدادی ماھی بگیرد و آن ھا را در مرتبانی کھ بھ تازه گی خریده است، نگھداری کند. خرس با خود اندیشید، ماھی ھا در این مرتبان بسیار قشنگ معلوم خواھند شد. او چنگک ماھی گیری خود را گرفت و بھ جانب دریاچھ برای گرفتن ماھی حرکت کرد خرس چند تا طعمھ را بھ چنگک خود بند می کند و چنگک را بھ درون آب می اندازد. پس از آن او چنگک ماھی گیری را بھ درون آب پرتاب می کند و منتظر می ماند تا ماھی ھا طعمھ را بخورند. اما، ماھی ھا ھوشیار بودند. آن ھا چنگک ماھی گیری را بھ ریشھ ی گیاھان بند کردند. خرس با خوشحالی فریاد زد ماھی گرفتم. اما, وقتی چنگک را کش کرد، متوجھ شد کھ چنگکش در جایی گیر کرده است. خرس با خود گفت، حتما ماھی بزرگی گرفتھ ام. او چنگک را بھ شدت کش کرد و چنگک پاره شد. خرس قھر بود خرس بھ خانھ برگشت و با جال خود دوباره بھ دریاچھ برگشت خرس جال ماھی گیری خویش را بھ آب می اندازد. و اما ماھی ھا ھوشیار بودند، آن ھا جال را پاره کردند. خرس بسیار بسیار قھر بود، او می خواست تا بھ ماھی ھا درسی بدھد. تصمیم گرفت بھ درون آب برود. خرس بھ درون دریاچھ خیز زد در داخل دریاچھ تعداد زیاد ماھی ھای زیبا زنده گی می کردند. آن ھا با خرس شنا کردند و بازی نمودند. خرس وقت بسیار خوش با ماھی ھا داشت. او از ماھی ھا خوشش آمد و ماھی ھا از خرس خوش شان آمد. سرانجام خرس تصمیم گرفت کھ دیگر ھرگز ماھی نگیرد. در عوض او اینک ھر روز بھ دریاچھ می رفت و با دوستان جدید خود بازی می کرد.",
+  "translation": "The bear wants to decorate his house. He decides to catch some fish and keep them in a jar he recently bought. The bear thought to himself, the fish will look very beautiful in this jar.\n\nHe took his fishing hook and headed towards the lake to catch fish.\n\nThe bear ties several baits to his hook and drops the hook into the water.\n\nAfter that, he casts the fishing hook into the water and waits for the fish to eat the bait.\n\nBut the fish were clever. They tied the fishing hook to the roots of the plants.\n\nThe bear shouted with joy, I caught a fish! But when he pulled the hook, he realized his hook was stuck somewhere.\n\nThe bear said to himself, I must have caught a big one. He pulled the hook hard and the hook broke.\n\nThe bear was angry.\n\nThe bear went home.\n\nAnd returned to the lake with his net.\n\nThe bear throws his fishing net into the water.\n\nBut the fish were clever, they tore the net.\n\nThe bear was very very angry, he wanted to teach the fish a lesson. He decided to go into the water.\n\nThe bear leapt into the lake.\n\nInside the lake lived many beautiful fish. They swam and played with the bear. The bear had a wonderful time with the fish. He liked the fish and the fish liked him.\n\nFinally the bear decided never to catch fish again. Instead, he now went to the lake every day and played with his new friends.",
+  "sentences": [
+    {
+      "text": "خرس می خواھد کھ خانھ خود را تزیین کند. او تصمیم دارد تعدادی ماھی بگیرد و آن ھا را در مرتبانی کھ بھ تازه گی خریده است، نگھداری کند. خرس با خود اندیشید، ماھی ھا در این مرتبان بسیار قشنگ معلوم خواھند شد.",
+      "translation": "The bear wants to decorate his house. He decides to catch some fish and keep them in a jar he recently bought. The bear thought to himself, 'The fish will look very beautiful in this jar.'",
+      "image_url": "/stories/bear-fishing/page-01.jpg",
+      "tokens": []
+    },
+    {
+      "text": "او چنگک ماھی گیری خود را گرفت و بھ جانب دریاچھ برای گرفتن ماھی حرکت کرد",
+      "translation": "He took his fishing hook and headed towards the lake to catch fish.",
+      "image_url": "/stories/bear-fishing/page-02.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس چند تا طعمھ را بھ چنگک خود بند می کند و چنگک را بھ درون آب می اندازد.",
+      "translation": "The bear ties several baits to his hook and drops the hook into the water.",
+      "image_url": "/stories/bear-fishing/page-03.jpg",
+      "tokens": []
+    },
+    {
+      "text": "پس از آن او چنگک ماھی گیری را بھ درون آب پرتاب می کند و منتظر می ماند تا ماھی ھا طعمھ را بخورند.",
+      "translation": "After that, he casts the fishing hook into the water and waits for the fish to eat the bait.",
+      "image_url": "/stories/bear-fishing/page-04.jpg",
+      "tokens": []
+    },
+    {
+      "text": "اما، ماھی ھا ھوشیار بودند. آن ھا چنگک ماھی گیری را بھ ریشھ ی گیاھان بند کردند.",
+      "translation": "But the fish were clever. They tied the fishing hook to the roots of the plants.",
+      "image_url": "/stories/bear-fishing/page-05.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس با خوشحالی فریاد زد ماھی گرفتم. اما, وقتی چنگک را کش کرد، متوجھ شد کھ چنگکش در جایی گیر کرده است.",
+      "translation": "The bear shouted with joy, 'I caught a fish!' But when he pulled the hook, he realized his hook was stuck somewhere.",
+      "image_url": "/stories/bear-fishing/page-06.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس با خود گفت، حتما ماھی بزرگی گرفتھ ام. او چنگک را بھ شدت کش کرد و چنگک پاره شد.",
+      "translation": "The bear said to himself, 'I must have caught a big one.' He pulled the hook hard and the hook broke.",
+      "image_url": "/stories/bear-fishing/page-07.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس قھر بود",
+      "translation": "The bear was angry.",
+      "image_url": "/stories/bear-fishing/page-08.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس بھ خانھ برگشت",
+      "translation": "The bear went home.",
+      "image_url": "/stories/bear-fishing/page-09.jpg",
+      "tokens": []
+    },
+    {
+      "text": "و با جال خود دوباره بھ دریاچھ برگشت",
+      "translation": "And returned to the lake with his net.",
+      "image_url": "/stories/bear-fishing/page-10.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس جال ماھی گیری خویش را بھ آب می اندازد.",
+      "translation": "The bear throws his fishing net into the water.",
+      "image_url": "/stories/bear-fishing/page-11.jpg",
+      "tokens": []
+    },
+    {
+      "text": "و اما ماھی ھا ھوشیار بودند، آن ھا جال را پاره کردند.",
+      "translation": "But the fish were clever, they tore the net.",
+      "image_url": "/stories/bear-fishing/page-12.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس بسیار بسیار قھر بود، او می خواست تا بھ ماھی ھا درسی بدھد. تصمیم گرفت بھ درون آب برود.",
+      "translation": "The bear was very very angry, he wanted to teach the fish a lesson. He decided to go into the water.",
+      "image_url": "/stories/bear-fishing/page-13.jpg",
+      "tokens": []
+    },
+    {
+      "text": "خرس بھ درون دریاچھ خیز زد",
+      "translation": "The bear leapt into the lake.",
+      "image_url": "/stories/bear-fishing/page-14.jpg",
+      "tokens": []
+    },
+    {
+      "text": "در داخل دریاچھ تعداد زیاد ماھی ھای زیبا زنده گی می کردند. آن ھا با خرس شنا کردند و بازی نمودند. خرس وقت بسیار خوش با ماھی ھا داشت. او از ماھی ھا خوشش آمد و ماھی ھا از خرس خوش شان آمد.",
+      "translation": "Inside the lake lived many beautiful fish. They swam and played with the bear. The bear had a wonderful time with the fish. He liked the fish and the fish liked him.",
+      "image_url": "/stories/bear-fishing/page-15.jpg",
+      "tokens": []
+    },
+    {
+      "text": "سرانجام خرس تصمیم گرفت کھ دیگر ھرگز ماھی نگیرد. در عوض او اینک ھر روز بھ دریاچھ می رفت و با دوستان جدید خود بازی می کرد.",
+      "translation": "Finally the bear decided never to catch fish again. Instead, he now went to the lake every day and played with his new friends.",
+      "image_url": "/stories/bear-fishing/page-16.jpg",
+      "tokens": []
+    }
+  ],
+  "words": [
+    {
+      "farsi": "خرس",
+      "transliteration": "khirs",
+      "meaning": "bear",
+      "pronunciation": "KHIRS",
+      "diacritics": "خِرس",
+      "pos": "noun",
+      "lemma": "خرس",
+      "letters": []
+    },
+    {
+      "farsi": "می",
+      "transliteration": "mī",
+      "meaning": "verbal prefix (present/imperfect)",
+      "pronunciation": "MEE",
+      "diacritics": "مِی",
+      "pos": "particle",
+      "lemma": "می",
+      "letters": []
+    },
+    {
+      "farsi": "خواھد",
+      "transliteration": "khwāhad",
+      "meaning": "wants, will",
+      "pronunciation": "khWAA-had",
+      "diacritics": "خواهَد",
+      "pos": "verb",
+      "lemma": "خواستن",
+      "letters": []
+    },
+    {
+      "farsi": "کھ",
+      "transliteration": "ka",
+      "meaning": "that, which, who",
+      "pronunciation": "ka",
+      "diacritics": "کِه",
+      "pos": "conjunction",
+      "lemma": "که",
+      "letters": []
+    },
+    {
+      "farsi": "خانھ",
+      "transliteration": "khāna",
+      "meaning": "house, home",
+      "pronunciation": "KHAA-na",
+      "diacritics": "خانَه",
+      "pos": "noun",
+      "lemma": "خانه",
+      "letters": []
+    },
+    {
+      "farsi": "خود",
+      "transliteration": "khod",
+      "meaning": "self, own, himself",
+      "pronunciation": "KHOD",
+      "diacritics": "خُود",
+      "pos": "pronoun",
+      "lemma": "خود",
+      "letters": []
+    },
+    {
+      "farsi": "را",
+      "transliteration": "rā",
+      "meaning": "direct object marker",
+      "pronunciation": "RAA",
+      "diacritics": "را",
+      "pos": "particle",
+      "lemma": "را",
+      "letters": []
+    },
+    {
+      "farsi": "تزیین",
+      "transliteration": "tazīn",
+      "meaning": "decoration, to decorate",
+      "pronunciation": "ta-ZEEN",
+      "diacritics": "تَزیین",
+      "pos": "noun",
+      "lemma": "تزیین",
+      "letters": []
+    },
+    {
+      "farsi": "کند",
+      "transliteration": "kunad",
+      "meaning": "does, makes (subjunctive)",
+      "pronunciation": "ku-NAD",
+      "diacritics": "کُنَد",
+      "pos": "verb",
+      "lemma": "کردن",
+      "letters": []
+    },
+    {
+      "farsi": "او",
+      "transliteration": "u",
+      "meaning": "he, she",
+      "pronunciation": "OO",
+      "diacritics": "او",
+      "pos": "pronoun",
+      "lemma": "او",
+      "letters": []
+    },
+    {
+      "farsi": "تصمیم",
+      "transliteration": "tasmīm",
+      "meaning": "decision",
+      "pronunciation": "tas-MEEM",
+      "diacritics": "تَصمیم",
+      "pos": "noun",
+      "lemma": "تصمیم",
+      "letters": []
+    },
+    {
+      "farsi": "دارد",
+      "transliteration": "dārad",
+      "meaning": "has, holds",
+      "pronunciation": "DAA-rad",
+      "diacritics": "دارَد",
+      "pos": "verb",
+      "lemma": "داشتن",
+      "letters": []
+    },
+    {
+      "farsi": "تعدادی",
+      "transliteration": "ta'dādī",
+      "meaning": "a number of, some",
+      "pronunciation": "ta-daa-DEE",
+      "diacritics": "تَعدادی",
+      "pos": "noun",
+      "lemma": "تعداد",
+      "letters": []
+    },
+    {
+      "farsi": "ماھی",
+      "transliteration": "māhī",
+      "meaning": "fish",
+      "pronunciation": "MAA-hee",
+      "diacritics": "ماهِی",
+      "pos": "noun",
+      "lemma": "ماهی",
+      "letters": []
+    },
+    {
+      "farsi": "بگیرد",
+      "transliteration": "begīrad",
+      "meaning": "catches, takes (subjunctive)",
+      "pronunciation": "be-GEE-rad",
+      "diacritics": "بِگیرَد",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "و",
+      "transliteration": "wa",
+      "meaning": "and",
+      "pronunciation": "wa",
+      "diacritics": "و",
+      "pos": "conjunction",
+      "lemma": "و",
+      "letters": []
+    },
+    {
+      "farsi": "آن",
+      "transliteration": "ān",
+      "meaning": "that, those, it",
+      "pronunciation": "AAN",
+      "diacritics": "آن",
+      "pos": "pronoun",
+      "lemma": "آن",
+      "letters": []
+    },
+    {
+      "farsi": "ھا",
+      "transliteration": "hā",
+      "meaning": "plural marker, they (informal)",
+      "pronunciation": "HAA",
+      "diacritics": "ها",
+      "pos": "particle",
+      "lemma": "ها",
+      "letters": []
+    },
+    {
+      "farsi": "در",
+      "transliteration": "dar",
+      "meaning": "in, at, inside",
+      "pronunciation": "dar",
+      "diacritics": "دَر",
+      "pos": "preposition",
+      "lemma": "در",
+      "letters": []
+    },
+    {
+      "farsi": "مرتبانی",
+      "transliteration": "martabānī",
+      "meaning": "a jar (with indefinite suffix)",
+      "pronunciation": "mar-ta-BAA-nee",
+      "diacritics": "مَرتَبانی",
+      "pos": "noun",
+      "lemma": "مرتبان",
+      "letters": []
+    },
+    {
+      "farsi": "بھ",
+      "transliteration": "ba",
+      "meaning": "to, in, at, with",
+      "pronunciation": "ba",
+      "diacritics": "بِه",
+      "pos": "preposition",
+      "lemma": "به",
+      "letters": []
+    },
+    {
+      "farsi": "تازه",
+      "transliteration": "tāza",
+      "meaning": "fresh, new, recent",
+      "pronunciation": "TAA-za",
+      "diacritics": "تازَه",
+      "pos": "adjective",
+      "lemma": "تازه",
+      "letters": []
+    },
+    {
+      "farsi": "گی",
+      "transliteration": "gī",
+      "meaning": "abstract noun suffix (Dari); here: recently, freshness",
+      "pronunciation": "GEE",
+      "diacritics": "گی",
+      "pos": "particle",
+      "lemma": "گی",
+      "letters": []
+    },
+    {
+      "farsi": "خریده",
+      "transliteration": "kharīda",
+      "meaning": "bought (past participle)",
+      "pronunciation": "kha-REE-da",
+      "diacritics": "خَریدَه",
+      "pos": "verb",
+      "lemma": "خریدن",
+      "letters": []
+    },
+    {
+      "farsi": "است",
+      "transliteration": "ast",
+      "meaning": "is (copula)",
+      "pronunciation": "ast",
+      "diacritics": "اَست",
+      "pos": "verb",
+      "lemma": "بودن",
+      "letters": []
+    },
+    {
+      "farsi": "نگھداری",
+      "transliteration": "nigahdārī",
+      "meaning": "keeping, care, maintenance",
+      "pronunciation": "ni-gah-DAA-ree",
+      "diacritics": "نِگَهداری",
+      "pos": "noun",
+      "lemma": "نگهداری",
+      "letters": []
+    },
+    {
+      "farsi": "با",
+      "transliteration": "bā",
+      "meaning": "with",
+      "pronunciation": "BAA",
+      "diacritics": "با",
+      "pos": "preposition",
+      "lemma": "با",
+      "letters": []
+    },
+    {
+      "farsi": "اندیشید",
+      "transliteration": "andīshīd",
+      "meaning": "thought, pondered",
+      "pronunciation": "an-dee-SHEED",
+      "diacritics": "اَندیشید",
+      "pos": "verb",
+      "lemma": "اندیشیدن",
+      "letters": []
+    },
+    {
+      "farsi": "این",
+      "transliteration": "īn",
+      "meaning": "this",
+      "pronunciation": "EEN",
+      "diacritics": "این",
+      "pos": "pronoun",
+      "lemma": "این",
+      "letters": []
+    },
+    {
+      "farsi": "مرتبان",
+      "transliteration": "martabān",
+      "meaning": "jar, mason jar",
+      "pronunciation": "mar-ta-BAAN",
+      "diacritics": "مَرتَبان",
+      "pos": "noun",
+      "lemma": "مرتبان",
+      "letters": []
+    },
+    {
+      "farsi": "بسیار",
+      "transliteration": "bisyār",
+      "meaning": "very, much, a lot",
+      "pronunciation": "bis-YAAR",
+      "diacritics": "بِسیار",
+      "pos": "adverb",
+      "lemma": "بسیار",
+      "letters": []
+    },
+    {
+      "farsi": "قشنگ",
+      "transliteration": "qashang",
+      "meaning": "beautiful, pretty, nice",
+      "pronunciation": "qa-SHANG",
+      "diacritics": "قَشَنگ",
+      "pos": "adjective",
+      "lemma": "قشنگ",
+      "letters": []
+    },
+    {
+      "farsi": "معلوم",
+      "transliteration": "ma'lūm",
+      "meaning": "visible, evident, apparent",
+      "pronunciation": "ma-LOOM",
+      "diacritics": "مَعلوم",
+      "pos": "adjective",
+      "lemma": "معلوم",
+      "letters": []
+    },
+    {
+      "farsi": "خواھند",
+      "transliteration": "khwāhand",
+      "meaning": "they will, they want",
+      "pronunciation": "khWAA-hand",
+      "diacritics": "خواهَند",
+      "pos": "verb",
+      "lemma": "خواستن",
+      "letters": []
+    },
+    {
+      "farsi": "شد",
+      "transliteration": "shud",
+      "meaning": "became, happened, was done",
+      "pronunciation": "shud",
+      "diacritics": "شُد",
+      "pos": "verb",
+      "lemma": "شدن",
+      "letters": []
+    },
+    {
+      "farsi": "چنگک",
+      "transliteration": "changak",
+      "meaning": "hook, fishing hook, claw",
+      "pronunciation": "CHAN-gak",
+      "diacritics": "چَنگَک",
+      "pos": "noun",
+      "lemma": "چنگک",
+      "letters": []
+    },
+    {
+      "farsi": "گیری",
+      "transliteration": "gīrī",
+      "meaning": "catching, taking (verbal noun suffix)",
+      "pronunciation": "GEE-ree",
+      "diacritics": "گیری",
+      "pos": "noun",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "گرفت",
+      "transliteration": "giraft",
+      "meaning": "took, caught, received",
+      "pronunciation": "gi-RAFT",
+      "diacritics": "گِرَفت",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "جانب",
+      "transliteration": "jānib",
+      "meaning": "direction, side, towards",
+      "pronunciation": "JAA-nib",
+      "diacritics": "جانِب",
+      "pos": "noun",
+      "lemma": "جانب",
+      "letters": []
+    },
+    {
+      "farsi": "دریاچھ",
+      "transliteration": "daryācha",
+      "meaning": "lake",
+      "pronunciation": "dar-YAA-cha",
+      "diacritics": "دَریاچَه",
+      "pos": "noun",
+      "lemma": "دریاچه",
+      "letters": []
+    },
+    {
+      "farsi": "برای",
+      "transliteration": "barāy",
+      "meaning": "for, in order to",
+      "pronunciation": "ba-RAAY",
+      "diacritics": "بَرای",
+      "pos": "preposition",
+      "lemma": "برای",
+      "letters": []
+    },
+    {
+      "farsi": "گرفتن",
+      "transliteration": "giriftan",
+      "meaning": "to take, to catch (infinitive)",
+      "pronunciation": "gi-rif-TAN",
+      "diacritics": "گِرِفتَن",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "حرکت",
+      "transliteration": "harakat",
+      "meaning": "movement, motion; moved",
+      "pronunciation": "ha-ra-KAT",
+      "diacritics": "حَرَکَت",
+      "pos": "noun",
+      "lemma": "حرکت",
+      "letters": []
+    },
+    {
+      "farsi": "کرد",
+      "transliteration": "kard",
+      "meaning": "did, made",
+      "pronunciation": "kard",
+      "diacritics": "کَرد",
+      "pos": "verb",
+      "lemma": "کردن",
+      "letters": []
+    },
+    {
+      "farsi": "چند",
+      "transliteration": "chand",
+      "meaning": "several, some, a few",
+      "pronunciation": "chand",
+      "diacritics": "چَند",
+      "pos": "adjective",
+      "lemma": "چند",
+      "letters": []
+    },
+    {
+      "farsi": "تا",
+      "transliteration": "tā",
+      "meaning": "until, to, so that, as",
+      "pronunciation": "TAA",
+      "diacritics": "تا",
+      "pos": "conjunction",
+      "lemma": "تا",
+      "letters": []
+    },
+    {
+      "farsi": "طعمھ",
+      "transliteration": "t'ama",
+      "meaning": "bait, food (for fish)",
+      "pronunciation": "TAA-ma",
+      "diacritics": "طَعمَه",
+      "pos": "noun",
+      "lemma": "طعمه",
+      "letters": []
+    },
+    {
+      "farsi": "بند",
+      "transliteration": "band",
+      "meaning": "tied, attached; to tie",
+      "pronunciation": "band",
+      "diacritics": "بَند",
+      "pos": "adjective",
+      "lemma": "بند",
+      "letters": []
+    },
+    {
+      "farsi": "درون",
+      "transliteration": "darūn",
+      "meaning": "inside, within",
+      "pronunciation": "da-ROON",
+      "diacritics": "دَرون",
+      "pos": "preposition",
+      "lemma": "درون",
+      "letters": []
+    },
+    {
+      "farsi": "آب",
+      "transliteration": "āb",
+      "meaning": "water",
+      "pronunciation": "AAB",
+      "diacritics": "آب",
+      "pos": "noun",
+      "lemma": "آب",
+      "letters": []
+    },
+    {
+      "farsi": "اندازد",
+      "transliteration": "andāzad",
+      "meaning": "drops, throws in (3rd sg present)",
+      "pronunciation": "an-DAA-zad",
+      "diacritics": "اَندازَد",
+      "pos": "verb",
+      "lemma": "انداختن",
+      "letters": []
+    },
+    {
+      "farsi": "پس",
+      "transliteration": "pas",
+      "meaning": "after, then, so",
+      "pronunciation": "pas",
+      "diacritics": "پَس",
+      "pos": "conjunction",
+      "lemma": "پس",
+      "letters": []
+    },
+    {
+      "farsi": "از",
+      "transliteration": "az",
+      "meaning": "from, of, by",
+      "pronunciation": "az",
+      "diacritics": "اَز",
+      "pos": "preposition",
+      "lemma": "از",
+      "letters": []
+    },
+    {
+      "farsi": "پرتاب",
+      "transliteration": "partāb",
+      "meaning": "throw, toss, cast",
+      "pronunciation": "par-TAAB",
+      "diacritics": "پَرتاب",
+      "pos": "noun",
+      "lemma": "پرتاب",
+      "letters": []
+    },
+    {
+      "farsi": "منتظر",
+      "transliteration": "muntazar",
+      "meaning": "waiting, expecting",
+      "pronunciation": "mun-ta-ZAR",
+      "diacritics": "مُنتَظِر",
+      "pos": "adjective",
+      "lemma": "منتظر",
+      "letters": []
+    },
+    {
+      "farsi": "ماند",
+      "transliteration": "mānd",
+      "meaning": "stayed, remained, waited",
+      "pronunciation": "maand",
+      "diacritics": "ماند",
+      "pos": "verb",
+      "lemma": "ماندن",
+      "letters": []
+    },
+    {
+      "farsi": "بخورند",
+      "transliteration": "bakhwarand",
+      "meaning": "they eat (subjunctive plural)",
+      "pronunciation": "ba-KHO-rand",
+      "diacritics": "بَخورَند",
+      "pos": "verb",
+      "lemma": "خوردن",
+      "letters": []
+    },
+    {
+      "farsi": "اما",
+      "transliteration": "ammā",
+      "meaning": "but, however",
+      "pronunciation": "am-MAA",
+      "diacritics": "اَمّا",
+      "pos": "conjunction",
+      "lemma": "اما",
+      "letters": []
+    },
+    {
+      "farsi": "ھوشیار",
+      "transliteration": "hoshyār",
+      "meaning": "clever, smart, alert, cunning",
+      "pronunciation": "hosh-YAAR",
+      "diacritics": "هوشیار",
+      "pos": "adjective",
+      "lemma": "هوشیار",
+      "letters": []
+    },
+    {
+      "farsi": "بودند",
+      "transliteration": "budand",
+      "meaning": "were (3rd plural past)",
+      "pronunciation": "BOO-dand",
+      "diacritics": "بودَند",
+      "pos": "verb",
+      "lemma": "بودن",
+      "letters": []
+    },
+    {
+      "farsi": "ریشھ",
+      "transliteration": "rīsha",
+      "meaning": "root",
+      "pronunciation": "REE-sha",
+      "diacritics": "ریشَه",
+      "pos": "noun",
+      "lemma": "ریشه",
+      "letters": []
+    },
+    {
+      "farsi": "ی",
+      "transliteration": "ī / ya",
+      "meaning": "of (ezafe, possessive link); also indefinite suffix",
+      "pronunciation": "ee / ya",
+      "diacritics": "ی",
+      "pos": "particle",
+      "lemma": "ی",
+      "letters": []
+    },
+    {
+      "farsi": "گیاھان",
+      "transliteration": "giyāhān",
+      "meaning": "plants, vegetation (plural of گیاه)",
+      "pronunciation": "gi-yaa-HAAN",
+      "diacritics": "گِیاهان",
+      "pos": "noun",
+      "lemma": "گیاه",
+      "letters": []
+    },
+    {
+      "farsi": "کردند",
+      "transliteration": "kardand",
+      "meaning": "they did, they made",
+      "pronunciation": "KAR-dand",
+      "diacritics": "کَردَند",
+      "pos": "verb",
+      "lemma": "کردن",
+      "letters": []
+    },
+    {
+      "farsi": "خوشحالی",
+      "transliteration": "khoshhālī",
+      "meaning": "happiness, joy, delight",
+      "pronunciation": "khosh-haa-LEE",
+      "diacritics": "خوشحالی",
+      "pos": "noun",
+      "lemma": "خوشحالی",
+      "letters": []
+    },
+    {
+      "farsi": "فریاد",
+      "transliteration": "faryād",
+      "meaning": "shout, cry, scream",
+      "pronunciation": "far-YAAD",
+      "diacritics": "فَریاد",
+      "pos": "noun",
+      "lemma": "فریاد",
+      "letters": []
+    },
+    {
+      "farsi": "زد",
+      "transliteration": "zad",
+      "meaning": "hit, struck; shouted (زد فریاد = shouted out)",
+      "pronunciation": "zad",
+      "diacritics": "زَد",
+      "pos": "verb",
+      "lemma": "زدن",
+      "letters": []
+    },
+    {
+      "farsi": "گرفتم",
+      "transliteration": "giraftam",
+      "meaning": "I caught, I took",
+      "pronunciation": "gi-RAF-tam",
+      "diacritics": "گِرَفتَم",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "وقتی",
+      "transliteration": "waqtī",
+      "meaning": "when",
+      "pronunciation": "waq-TEE",
+      "diacritics": "وَقتی",
+      "pos": "conjunction",
+      "lemma": "وقتی",
+      "letters": []
+    },
+    {
+      "farsi": "کش",
+      "transliteration": "kash",
+      "meaning": "pull, tug; pulling",
+      "pronunciation": "kash",
+      "diacritics": "کَش",
+      "pos": "noun",
+      "lemma": "کشیدن",
+      "letters": []
+    },
+    {
+      "farsi": "متوجھ",
+      "transliteration": "mutawajja",
+      "meaning": "noticed, realized; attentive",
+      "pronunciation": "mu-ta-WAJ-ja",
+      "diacritics": "مُتَوَجَّه",
+      "pos": "adjective",
+      "lemma": "متوجه",
+      "letters": []
+    },
+    {
+      "farsi": "چنگکش",
+      "transliteration": "changakash",
+      "meaning": "his hook (چنگک + possessive ش)",
+      "pronunciation": "CHAN-ga-kash",
+      "diacritics": "چَنگَکَش",
+      "pos": "noun",
+      "lemma": "چنگک",
+      "letters": []
+    },
+    {
+      "farsi": "جایی",
+      "transliteration": "jāyī",
+      "meaning": "somewhere, a place",
+      "pronunciation": "jaa-YEE",
+      "diacritics": "جایی",
+      "pos": "noun",
+      "lemma": "جا",
+      "letters": []
+    },
+    {
+      "farsi": "گیر",
+      "transliteration": "gīr",
+      "meaning": "stuck, caught; catcher",
+      "pronunciation": "GEER",
+      "diacritics": "گیر",
+      "pos": "adjective",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "کرده",
+      "transliteration": "karda",
+      "meaning": "done, made (past participle)",
+      "pronunciation": "KAR-da",
+      "diacritics": "کَردَه",
+      "pos": "verb",
+      "lemma": "کردن",
+      "letters": []
+    },
+    {
+      "farsi": "گفت",
+      "transliteration": "guft",
+      "meaning": "said, spoke",
+      "pronunciation": "guft",
+      "diacritics": "گُفت",
+      "pos": "verb",
+      "lemma": "گفتن",
+      "letters": []
+    },
+    {
+      "farsi": "حتما",
+      "transliteration": "hatman",
+      "meaning": "certainly, definitely, surely",
+      "pronunciation": "hat-MAN",
+      "diacritics": "حَتمًا",
+      "pos": "adverb",
+      "lemma": "حتماً",
+      "letters": []
+    },
+    {
+      "farsi": "بزرگی",
+      "transliteration": "buzurgī",
+      "meaning": "bigness, large size; a big one",
+      "pronunciation": "bu-ZUR-gee",
+      "diacritics": "بُزُرگی",
+      "pos": "noun",
+      "lemma": "بزرگ",
+      "letters": []
+    },
+    {
+      "farsi": "گرفتھ",
+      "transliteration": "girifta",
+      "meaning": "taken, caught (past participle, Dari form)",
+      "pronunciation": "gi-RIF-ta",
+      "diacritics": "گِرِفتَه",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "ام",
+      "transliteration": "am",
+      "meaning": "I am / I have (1st sg perfect suffix)",
+      "pronunciation": "am",
+      "diacritics": "اَم",
+      "pos": "verb",
+      "lemma": "بودن",
+      "letters": []
+    },
+    {
+      "farsi": "شدت",
+      "transliteration": "shiddat",
+      "meaning": "force, intensity, severity",
+      "pronunciation": "SHID-dat",
+      "diacritics": "شِدَّت",
+      "pos": "noun",
+      "lemma": "شدت",
+      "letters": []
+    },
+    {
+      "farsi": "پاره",
+      "transliteration": "pāra",
+      "meaning": "torn, broken; piece",
+      "pronunciation": "PAA-ra",
+      "diacritics": "پارَه",
+      "pos": "adjective",
+      "lemma": "پاره",
+      "letters": []
+    },
+    {
+      "farsi": "قھر",
+      "transliteration": "qahr",
+      "meaning": "angry, upset; anger, wrath",
+      "pronunciation": "qahr",
+      "diacritics": "قَهر",
+      "pos": "adjective",
+      "lemma": "قهر",
+      "letters": []
+    },
+    {
+      "farsi": "بود",
+      "transliteration": "bud",
+      "meaning": "was (3rd sg past copula)",
+      "pronunciation": "bood",
+      "diacritics": "بود",
+      "pos": "verb",
+      "lemma": "بودن",
+      "letters": []
+    },
+    {
+      "farsi": "برگشت",
+      "transliteration": "bargasht",
+      "meaning": "returned, went back",
+      "pronunciation": "bar-GASHT",
+      "diacritics": "بَرگَشت",
+      "pos": "verb",
+      "lemma": "برگشتن",
+      "letters": []
+    },
+    {
+      "farsi": "جال",
+      "transliteration": "jāl",
+      "meaning": "net, fishing net",
+      "pronunciation": "JAAL",
+      "diacritics": "جال",
+      "pos": "noun",
+      "lemma": "جال",
+      "letters": []
+    },
+    {
+      "farsi": "دوباره",
+      "transliteration": "dobāra",
+      "meaning": "again, once more",
+      "pronunciation": "do-BAA-ra",
+      "diacritics": "دوباره",
+      "pos": "adverb",
+      "lemma": "دوباره",
+      "letters": []
+    },
+    {
+      "farsi": "خویش",
+      "transliteration": "khwīsh",
+      "meaning": "own, self (literary/Dari reflexive)",
+      "pronunciation": "khweesh",
+      "diacritics": "خویش",
+      "pos": "pronoun",
+      "lemma": "خویش",
+      "letters": []
+    },
+    {
+      "farsi": "خواست",
+      "transliteration": "khwāst",
+      "meaning": "wanted (past tense)",
+      "pronunciation": "khwaast",
+      "diacritics": "خواست",
+      "pos": "verb",
+      "lemma": "خواستن",
+      "letters": []
+    },
+    {
+      "farsi": "درسی",
+      "transliteration": "darsī",
+      "meaning": "a lesson (indefinite)",
+      "pronunciation": "dar-SEE",
+      "diacritics": "دَرسی",
+      "pos": "noun",
+      "lemma": "درس",
+      "letters": []
+    },
+    {
+      "farsi": "بدھد",
+      "transliteration": "badihad",
+      "meaning": "gives (subjunctive, Dari form of بدهد)",
+      "pronunciation": "ba-di-HAD",
+      "diacritics": "بِدِهَد",
+      "pos": "verb",
+      "lemma": "دادن",
+      "letters": []
+    },
+    {
+      "farsi": "برود",
+      "transliteration": "barawad",
+      "meaning": "goes (subjunctive)",
+      "pronunciation": "ba-ra-WAD",
+      "diacritics": "بَرَوَد",
+      "pos": "verb",
+      "lemma": "رفتن",
+      "letters": []
+    },
+    {
+      "farsi": "خیز",
+      "transliteration": "khīz",
+      "meaning": "leap, jump",
+      "pronunciation": "KHEEZ",
+      "diacritics": "خیز",
+      "pos": "noun",
+      "lemma": "خیز",
+      "letters": []
+    },
+    {
+      "farsi": "داخل",
+      "transliteration": "dākhil",
+      "meaning": "inside, interior",
+      "pronunciation": "DAA-khil",
+      "diacritics": "داخِل",
+      "pos": "noun",
+      "lemma": "داخل",
+      "letters": []
+    },
+    {
+      "farsi": "تعداد",
+      "transliteration": "ta'dād",
+      "meaning": "number, quantity, count",
+      "pronunciation": "ta-DAAD",
+      "diacritics": "تَعداد",
+      "pos": "noun",
+      "lemma": "تعداد",
+      "letters": []
+    },
+    {
+      "farsi": "زیاد",
+      "transliteration": "ziyād",
+      "meaning": "many, a lot, too much",
+      "pronunciation": "zi-YAAD",
+      "diacritics": "زِیاد",
+      "pos": "adjective",
+      "lemma": "زیاد",
+      "letters": []
+    },
+    {
+      "farsi": "ھای",
+      "transliteration": "hāy",
+      "meaning": "plural genitive suffix (of the)",
+      "pronunciation": "HAAY",
+      "diacritics": "های",
+      "pos": "particle",
+      "lemma": "های",
+      "letters": []
+    },
+    {
+      "farsi": "زیبا",
+      "transliteration": "zibā",
+      "meaning": "beautiful, gorgeous",
+      "pronunciation": "zi-BAA",
+      "diacritics": "زیبا",
+      "pos": "adjective",
+      "lemma": "زیبا",
+      "letters": []
+    },
+    {
+      "farsi": "زنده",
+      "transliteration": "zinda",
+      "meaning": "living, alive",
+      "pronunciation": "ZIN-da",
+      "diacritics": "زِندَه",
+      "pos": "adjective",
+      "lemma": "زنده",
+      "letters": []
+    },
+    {
+      "farsi": "شنا",
+      "transliteration": "shnā",
+      "meaning": "swimming; to swim",
+      "pronunciation": "shNAA",
+      "diacritics": "شِنا",
+      "pos": "noun",
+      "lemma": "شنا",
+      "letters": []
+    },
+    {
+      "farsi": "بازی",
+      "transliteration": "bāzī",
+      "meaning": "play, game; playing",
+      "pronunciation": "baa-ZEE",
+      "diacritics": "بازی",
+      "pos": "noun",
+      "lemma": "بازی",
+      "letters": []
+    },
+    {
+      "farsi": "نمودند",
+      "transliteration": "namūdand",
+      "meaning": "they did, they performed (formal past plural)",
+      "pronunciation": "na-MOO-dand",
+      "diacritics": "نَمودَند",
+      "pos": "verb",
+      "lemma": "نمودن",
+      "letters": []
+    },
+    {
+      "farsi": "وقت",
+      "transliteration": "waqt",
+      "meaning": "time",
+      "pronunciation": "waqt",
+      "diacritics": "وَقت",
+      "pos": "noun",
+      "lemma": "وقت",
+      "letters": []
+    },
+    {
+      "farsi": "خوش",
+      "transliteration": "khwash",
+      "meaning": "happy, good, pleasant",
+      "pronunciation": "khwash",
+      "diacritics": "خوش",
+      "pos": "adjective",
+      "lemma": "خوش",
+      "letters": []
+    },
+    {
+      "farsi": "داشت",
+      "transliteration": "dāsht",
+      "meaning": "had (3rd sg past)",
+      "pronunciation": "daasht",
+      "diacritics": "داشت",
+      "pos": "verb",
+      "lemma": "داشتن",
+      "letters": []
+    },
+    {
+      "farsi": "خوشش",
+      "transliteration": "khwashash",
+      "meaning": "his/her pleasure; liked it (خوشش آمد = he/she liked it)",
+      "pronunciation": "khwash-ASH",
+      "diacritics": "خوشَش",
+      "pos": "noun",
+      "lemma": "خوش",
+      "letters": []
+    },
+    {
+      "farsi": "آمد",
+      "transliteration": "āmad",
+      "meaning": "came (past tense)",
+      "pronunciation": "AA-mad",
+      "diacritics": "آمَد",
+      "pos": "verb",
+      "lemma": "آمدن",
+      "letters": []
+    },
+    {
+      "farsi": "شان",
+      "transliteration": "shān",
+      "meaning": "their, them (possessive/object pronoun)",
+      "pronunciation": "shaan",
+      "diacritics": "شان",
+      "pos": "pronoun",
+      "lemma": "شان",
+      "letters": []
+    },
+    {
+      "farsi": "سرانجام",
+      "transliteration": "sarānjām",
+      "meaning": "finally, in the end, at last",
+      "pronunciation": "sa-raan-JAAM",
+      "diacritics": "سَرانجام",
+      "pos": "adverb",
+      "lemma": "سرانجام",
+      "letters": []
+    },
+    {
+      "farsi": "دیگر",
+      "transliteration": "dīgar",
+      "meaning": "other, another; anymore, no longer",
+      "pronunciation": "dee-GAR",
+      "diacritics": "دیگَر",
+      "pos": "adjective",
+      "lemma": "دیگر",
+      "letters": []
+    },
+    {
+      "farsi": "ھرگز",
+      "transliteration": "hargiz",
+      "meaning": "never, ever",
+      "pronunciation": "har-GIZ",
+      "diacritics": "هَرگِز",
+      "pos": "adverb",
+      "lemma": "هرگز",
+      "letters": []
+    },
+    {
+      "farsi": "نگیرد",
+      "transliteration": "nagīrad",
+      "meaning": "does not catch, will not take (negative subjunctive)",
+      "pronunciation": "na-GEE-rad",
+      "diacritics": "نَگیرَد",
+      "pos": "verb",
+      "lemma": "گرفتن",
+      "letters": []
+    },
+    {
+      "farsi": "عوض",
+      "transliteration": "iwaz",
+      "meaning": "exchange, instead (در عوض = instead)",
+      "pronunciation": "ee-WAZ",
+      "diacritics": "عِوَض",
+      "pos": "noun",
+      "lemma": "عوض",
+      "letters": []
+    },
+    {
+      "farsi": "اینک",
+      "transliteration": "īnak",
+      "meaning": "now, at this point (Dari literary)",
+      "pronunciation": "ee-NAK",
+      "diacritics": "اینَک",
+      "pos": "adverb",
+      "lemma": "اینک",
+      "letters": []
+    },
+    {
+      "farsi": "ھر",
+      "transliteration": "har",
+      "meaning": "every, each, any",
+      "pronunciation": "har",
+      "diacritics": "هَر",
+      "pos": "adjective",
+      "lemma": "هر",
+      "letters": []
+    },
+    {
+      "farsi": "روز",
+      "transliteration": "rūz",
+      "meaning": "day",
+      "pronunciation": "rooz",
+      "diacritics": "روز",
+      "pos": "noun",
+      "lemma": "روز",
+      "letters": []
+    },
+    {
+      "farsi": "رفت",
+      "transliteration": "raft",
+      "meaning": "went (past tense)",
+      "pronunciation": "raft",
+      "diacritics": "رَفت",
+      "pos": "verb",
+      "lemma": "رفتن",
+      "letters": []
+    },
+    {
+      "farsi": "دوستان",
+      "transliteration": "dustān",
+      "meaning": "friends (plural of دوست)",
+      "pronunciation": "dus-TAAN",
+      "diacritics": "دوستان",
+      "pos": "noun",
+      "lemma": "دوست",
+      "letters": []
+    },
+    {
+      "farsi": "جدید",
+      "transliteration": "jadīd",
+      "meaning": "new",
+      "pronunciation": "ja-DEED",
+      "diacritics": "جَدید",
+      "pos": "adjective",
+      "lemma": "جدید",
+      "letters": []
+    }
+  ]
+}

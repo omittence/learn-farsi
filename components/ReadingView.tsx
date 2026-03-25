@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import type { ReadingDocument, SentenceWithWords, Word } from '@/lib/types';
 import ClickableWord from './ClickableWord';
@@ -161,6 +162,49 @@ function SentenceBlock({
   onLeave: () => void;
 }) {
   const tokens = tokenize(sentence.text, allWords);
+  const hasImage = !!sentence.image_url;
+
+  // Picture-book pages use a block wrapper so the image sits above the text.
+  // Plain sentences keep the existing inline span behaviour.
+  if (hasImage) {
+    return (
+      <div className="mb-8 cursor-pointer" onClick={onHover} onMouseEnter={onHover} onMouseLeave={onLeave}>
+        <div className="mb-4 rounded-2xl overflow-hidden bg-zinc-900 border border-white/8">
+          <Image
+            src={sentence.image_url!}
+            alt=""
+            width={800}
+            height={600}
+            className="w-full h-auto"
+          />
+        </div>
+        <div className="rounded-lg transition-colors hover:bg-white/5 px-1">
+          {tokens.map((token, i) =>
+            token.type === 'word' ? (
+              <ClickableWord
+                key={`${sentence.id}-${token.word.id}-${i}`}
+                word={token.word}
+                onClick={onWordClick}
+              />
+            ) : (
+              <span key={`${sentence.id}-t-${i}`} className="text-zinc-300">
+                {token.text}
+              </span>
+            ),
+          )}
+          {showTranslation && sentence.translation && (
+            <span
+              dir="ltr"
+              className="block text-sm text-zinc-400 mt-1 animate-fade-in"
+              style={{ fontFamily: 'inherit' }}
+            >
+              {sentence.translation}
+            </span>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <span
