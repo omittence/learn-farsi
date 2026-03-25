@@ -5,7 +5,10 @@
       "WebFetch(domain:www.roshan-ai.ir)",
       "WebFetch(domain:pypi.org)",
       "WebSearch",
-      "Read(//c/Users/omid.barat/**)"
+      "Read(//c/Users/omid.barat/**)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3:*)"
     ]
   }
 }
