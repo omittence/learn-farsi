@@ -79,6 +79,8 @@ export default function ReadingView({ story }: Props) {
               word={token.word}
               onClick={handleWordClick}
             />
+          ) : token.text === '\n' ? (
+            <br key={i} />
           ) : (
             <span key={i} className="text-zinc-300">
               {token.text}
