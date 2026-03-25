@@ -1,0 +1,3968 @@
+{
+  "title": "غزل شمارهٔ ۱",
+  "title_en": "Unknown — غزل شمارهٔ ۱",
+  "level": "Advanced",
+  "description": "Poet expresses how his beloved’s flirtatious glance both wounds and sustains him, describing the damage of her playful cruelty and his hope that grace will keep him alive even under tyranny.",
+  "full_text": "بکشت غمزه آن شوخ، بی‌گناه مرا\nفکند سیب زنخدان او به چاه مرا\n\nغلام هندوی خالش شدم ندانستم\nکاسیر خویش کند زنگی سیاه مرا\n\nدلم بجا و دماغم سلیم بود ولی\nز راه رفتن او دل بشد ز راه مرا\n\nهزار بار فتادم به دام دیده و دل\nهنوز هیچ نمی‌باشد انتباه مرا\n\nز مهر او نتوانم که روی برتابم\nز خاک گور اگر بردمد گیاه مرا\n\nبه جور او چو بمیرم ز نو شوم زنده\nاگر به چشم عنایت کند نگاه مرا\n\nعبید از کرم یار بر مدار امید\nکه لطف شامل او بس امیدگاه مرا",
+  "translation": "That mischievous wink killed me innocently; her apple-cheek threw me into the well.\nI became her captive without knowing it; she makes my dark self a slave.\nMy heart and temper were calm, yet her leaving derailed me.\nA thousand times I fell into the trap of sight and heart, yet I remain without attention.\nI cannot turn from her love, even if the grave uproots my body.\nIf she is unjust and I die, I come alive again when she favors me with a glance.\nI rely on the grace of the beloved, for her kindness is my circle of hope.",
+  "words": [
+    {
+      "farsi": "بکشت",
+      "transliteration": "bokosht",
+      "meaning": "killed",
+      "pronunciation": "bo-KOSHT",
+      "diacritics": "بکشت",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "o"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "k"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "o"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بکش"
+    },
+    {
+      "farsi": "غمزه",
+      "transliteration": "ghamze",
+      "meaning": "a flirtatious wink or playful glance",
+      "pronunciation": "gham-ze",
+      "diacritics": "غمزهٔ",
+      "letters": [
+        {
+          "char": "غ",
+          "name": "Gheyn",
+          "isolated": "غ",
+          "initial": "غـ",
+          "medial": "ـغـ",
+          "final": "ـغ",
+          "sound": "ɣ"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "غمزه"
+    },
+    {
+      "farsi": "آن",
+      "transliteration": "ān",
+      "meaning": "that",
+      "pronunciation": "ān",
+      "diacritics": "آن",
+      "letters": [
+        {
+          "char": "آ",
+          "name": "Alef Madda",
+          "isolated": "آ",
+          "initial": "آ",
+          "medial": "ـآ",
+          "final": "ـآ",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "ɑː"
+        }
+      ],
+      "pos": "determiner",
+      "lemma": "آن"
+    },
+    {
+      "farsi": "شوخ",
+      "transliteration": "shookh",
+      "meaning": "mischievous or playful",
+      "pronunciation": "shookh",
+      "diacritics": "شوخ",
+      "letters": [
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "x"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "شوخ"
+    },
+    {
+      "farsi": "بی‌گناه",
+      "transliteration": "bi gonah",
+      "meaning": "innocent",
+      "pronunciation": "bi-go-nah",
+      "diacritics": "بی‌گناه",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بی‌گناه"
+    },
+    {
+      "farsi": "مرا",
+      "transliteration": "marā",
+      "meaning": "me; for me",
+      "pronunciation": "ma-RĀ",
+      "diacritics": "مرا",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "مرا"
+    },
+    {
+      "farsi": "فکند",
+      "transliteration": "fakand",
+      "meaning": "he/she threw",
+      "pronunciation": "fa-kand",
+      "diacritics": "فکند",
+      "letters": [
+        {
+          "char": "ف",
+          "name": "Fe",
+          "isolated": "ف",
+          "initial": "فـ",
+          "medial": "ـفـ",
+          "final": "ـف",
+          "sound": "f"
+        },
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "فکند#فکن"
+    },
+    {
+      "farsi": "سیب",
+      "transliteration": "seeb",
+      "meaning": "apple",
+      "pronunciation": "seeb",
+      "diacritics": "سیب",
+      "letters": [
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "سیب"
+    },
+    {
+      "farsi": "زنخدان",
+      "transliteration": "zankhdan",
+      "meaning": "cheek or dimple",
+      "pronunciation": "zankh-dan",
+      "diacritics": "زنخدان",
+      "letters": [
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "x"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "زنخدان"
+    },
+    {
+      "farsi": "او",
+      "transliteration": "ū",
+      "meaning": "him; her",
+      "pronunciation": "ū",
+      "diacritics": "او",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "او"
+    },
+    {
+      "farsi": "به",
+      "transliteration": "be",
+      "meaning": "to / at",
+      "pronunciation": "be",
+      "diacritics": "به",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "به"
+    },
+    {
+      "farsi": "چاه",
+      "transliteration": "chah",
+      "meaning": "well (water well)",
+      "pronunciation": "chah",
+      "diacritics": "چاه",
+      "letters": [
+        {
+          "char": "چ",
+          "name": "Che",
+          "isolated": "چ",
+          "initial": "چـ",
+          "medial": "ـچـ",
+          "final": "ـچ",
+          "sound": "tʃ"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "چاه"
+    },
+    {
+      "farsi": "غلام",
+      "transliteration": "ghulām",
+      "meaning": "slave, servant",
+      "pronunciation": "ghu-LĀM",
+      "diacritics": "غلام",
+      "letters": [
+        {
+          "char": "غ",
+          "name": "Gheyn",
+          "isolated": "غ",
+          "initial": "غـ",
+          "medial": "ـغـ",
+          "final": "ـغ",
+          "sound": "ɣ"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "o"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "l"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "ɑː"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "غلام"
+    },
+    {
+      "farsi": "هندوی",
+      "transliteration": "hendooy",
+      "meaning": "a Hindu or Indian woman",
+      "pronunciation": "hen-dooy",
+      "diacritics": "هندوی",
+      "letters": [
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "هندوی"
+    },
+    {
+      "farsi": "خالش",
+      "transliteration": "khalash",
+      "meaning": "her beauty spot (mole)",
+      "pronunciation": "kha-lash",
+      "diacritics": "خالش",
+      "letters": [
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "x"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "خال"
+    },
+    {
+      "farsi": "شدم",
+      "transliteration": "shodam",
+      "meaning": "I became",
+      "pronunciation": "sho-dam",
+      "diacritics": "شدم",
+      "letters": [
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "شد#شو"
+    },
+    {
+      "farsi": "ندانستم",
+      "transliteration": "nadanestam",
+      "meaning": "I did not know",
+      "pronunciation": "na-da-nes-tam",
+      "diacritics": "ندانستم",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دانست#دان"
+    },
+    {
+      "farsi": "کاسیر",
+      "transliteration": "kaseer",
+      "meaning": "a captive or someone held in bondage",
+      "pronunciation": "ka-seer",
+      "diacritics": "کاسیر",
+      "letters": [
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "کاسیر"
+    },
+    {
+      "farsi": "خویش",
+      "transliteration": "khish",
+      "meaning": "oneself, own",
+      "pronunciation": "khish",
+      "diacritics": "خویش",
+      "letters": [
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "x"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "iː"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "ʃ"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "خویش"
+    },
+    {
+      "farsi": "کند",
+      "transliteration": "konad",
+      "meaning": "does, may do",
+      "pronunciation": "ko-NAD",
+      "diacritics": "کند",
+      "letters": [
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "o"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "n"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "کرد#کن"
+    },
+    {
+      "farsi": "زنگی",
+      "transliteration": "zangi",
+      "meaning": "dark-skinned person (historical term)",
+      "pronunciation": "zan-gi",
+      "diacritics": "زنگی",
+      "letters": [
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "زنگی"
+    },
+    {
+      "farsi": "سیاه",
+      "transliteration": "seeah",
+      "meaning": "black or dark",
+      "pronunciation": "see-ah",
+      "diacritics": "سیاه",
+      "letters": [
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "سیاه"
+    },
+    {
+      "farsi": "دلم",
+      "transliteration": "delam",
+      "meaning": "my heart",
+      "pronunciation": "de-lam",
+      "diacritics": "دلم",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دلم"
+    },
+    {
+      "farsi": "بجا",
+      "transliteration": "beja",
+      "meaning": "properly, in place",
+      "pronunciation": "be-ja",
+      "diacritics": "بجا",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ج",
+          "name": "Jim",
+          "isolated": "ج",
+          "initial": "جـ",
+          "medial": "ـجـ",
+          "final": "ـج",
+          "sound": "dʒ"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بجا"
+    },
+    {
+      "farsi": "و",
+      "transliteration": "va",
+      "meaning": "and",
+      "pronunciation": "va",
+      "diacritics": "و",
+      "letters": [
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "و"
+    },
+    {
+      "farsi": "دماغم",
+      "transliteration": "demagham",
+      "meaning": "my temperament or disposition",
+      "pronunciation": "de-mag-ham",
+      "diacritics": "دماغم",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "غ",
+          "name": "Gheyn",
+          "isolated": "غ",
+          "initial": "غـ",
+          "medial": "ـغـ",
+          "final": "ـغ",
+          "sound": "ɣ"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دماغ"
+    },
+    {
+      "farsi": "سلیم",
+      "transliteration": "salim",
+      "meaning": "sound, healthy",
+      "pronunciation": "sa-leem",
+      "diacritics": "سلیم",
+      "letters": [
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "سلیم"
+    },
+    {
+      "farsi": "بود",
+      "transliteration": "bud",
+      "meaning": "was",
+      "pronunciation": "BOOD",
+      "diacritics": "بود",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "uː"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بود#است"
+    },
+    {
+      "farsi": "ولی",
+      "transliteration": "valī",
+      "meaning": "but",
+      "pronunciation": "va-LI",
+      "diacritics": "ولی",
+      "letters": [
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "ولی"
+    },
+    {
+      "farsi": "ز",
+      "transliteration": "ze",
+      "meaning": "from (poetic short form)",
+      "pronunciation": "ze",
+      "diacritics": "ز",
+      "letters": [
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "ز"
+    },
+    {
+      "farsi": "راه",
+      "transliteration": "rāh",
+      "meaning": "road, path, way",
+      "pronunciation": "rāh",
+      "diacritics": "راه",
+      "letters": [
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "راه"
+    },
+    {
+      "farsi": "رفتن",
+      "transliteration": "raftan",
+      "meaning": "to go",
+      "pronunciation": "raf-tan",
+      "diacritics": "رفتن",
+      "letters": [
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ف",
+          "name": "Fe",
+          "isolated": "ف",
+          "initial": "فـ",
+          "medial": "ـفـ",
+          "final": "ـف",
+          "sound": "f"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "رفتن"
+    },
+    {
+      "farsi": "دل",
+      "transliteration": "del",
+      "meaning": "heart",
+      "pronunciation": "del",
+      "diacritics": "دل",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "e"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دل"
+    },
+    {
+      "farsi": "بشد",
+      "transliteration": "beshod",
+      "meaning": "went, departed (poetic)",
+      "pronunciation": "be-SHOD",
+      "diacritics": "بشد",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "e"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "ʃ"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بشد"
+    },
+    {
+      "farsi": "هزار",
+      "transliteration": "hezār",
+      "meaning": "thousand",
+      "pronunciation": "he-ZĀR",
+      "diacritics": "هزار",
+      "letters": [
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        },
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "e"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "z"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "ɑː"
+        }
+      ],
+      "pos": "number",
+      "lemma": "هزار"
+    },
+    {
+      "farsi": "بار",
+      "transliteration": "bār",
+      "meaning": "time; load; court; (O) Lord",
+      "pronunciation": "bār",
+      "diacritics": "بار",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بار"
+    },
+    {
+      "farsi": "فتادم",
+      "transliteration": "oftadam",
+      "meaning": "I fell",
+      "pronunciation": "of-ta-dam",
+      "diacritics": "فتادم",
+      "letters": [
+        {
+          "char": "ف",
+          "name": "Fe",
+          "isolated": "ف",
+          "initial": "فـ",
+          "medial": "ـفـ",
+          "final": "ـف",
+          "sound": "f"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "فتادم"
+    },
+    {
+      "farsi": "دام",
+      "transliteration": "dam",
+      "meaning": "trap",
+      "pronunciation": "dam",
+      "diacritics": "دام",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دام"
+    },
+    {
+      "farsi": "دیده",
+      "transliteration": "dideh",
+      "meaning": "sight, eye",
+      "pronunciation": "di-deh",
+      "diacritics": "دیده",
+      "letters": [
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "دید#بین"
+    },
+    {
+      "farsi": "هنوز",
+      "transliteration": "hanuz",
+      "meaning": "still, yet",
+      "pronunciation": "ha-nuz",
+      "diacritics": "هنوز",
+      "letters": [
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        }
+      ],
+      "pos": "adverb",
+      "lemma": "هنوز"
+    },
+    {
+      "farsi": "هیچ",
+      "transliteration": "hich",
+      "meaning": "nothing",
+      "pronunciation": "hich",
+      "diacritics": "هیچ",
+      "letters": [
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "چ",
+          "name": "Che",
+          "isolated": "چ",
+          "initial": "چـ",
+          "medial": "ـچـ",
+          "final": "ـچ",
+          "sound": "tʃ"
+        }
+      ],
+      "pos": "determiner",
+      "lemma": "هیچ"
+    },
+    {
+      "farsi": "نمی‌باشد",
+      "transliteration": "nemi bashad",
+      "meaning": "is not",
+      "pronunciation": "ne-mi ba-shad",
+      "diacritics": "نمی‌باشد",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "باشید#باش"
+    },
+    {
+      "farsi": "انتباه",
+      "transliteration": "entebah",
+      "meaning": "attention, notice",
+      "pronunciation": "en-te-bah",
+      "diacritics": "انتباه",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "انتباه"
+    },
+    {
+      "farsi": "مهر",
+      "transliteration": "mehr",
+      "meaning": "love, affection; sun",
+      "pronunciation": "mehr",
+      "diacritics": "مهر",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "مهر"
+    },
+    {
+      "farsi": "نتوانم",
+      "transliteration": "natavanam",
+      "meaning": "I cannot",
+      "pronunciation": "na-ta-va-nam",
+      "diacritics": "نتوانم",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "توانست#توان"
+    },
+    {
+      "farsi": "که",
+      "transliteration": "ke",
+      "meaning": "that, who, which",
+      "pronunciation": "ke",
+      "diacritics": "که",
+      "letters": [
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "e"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "که"
+    },
+    {
+      "farsi": "روی",
+      "transliteration": "ruy",
+      "meaning": "on / on top of",
+      "pronunciation": "ROO-ee",
+      "diacritics": "روی",
+      "letters": [
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "uː"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "روی"
+    },
+    {
+      "farsi": "برتابم",
+      "transliteration": "bertabam",
+      "meaning": "bear me, tolerate me",
+      "pronunciation": "ber-ta-bam",
+      "diacritics": "برتابم",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "برتابم"
+    },
+    {
+      "farsi": "خاک",
+      "transliteration": "khāk",
+      "meaning": "dust, earth",
+      "pronunciation": "khāk",
+      "diacritics": "خاک",
+      "letters": [
+        {
+          "char": "خ",
+          "name": "Khe",
+          "isolated": "خ",
+          "initial": "خـ",
+          "medial": "ـخـ",
+          "final": "ـخ",
+          "sound": "x"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "خاک"
+    },
+    {
+      "farsi": "گور",
+      "transliteration": "goor",
+      "meaning": "grave",
+      "pronunciation": "goor",
+      "diacritics": "گور",
+      "letters": [
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "گور"
+    },
+    {
+      "farsi": "اگر",
+      "transliteration": "agar",
+      "meaning": "if",
+      "pronunciation": "a-GAR",
+      "diacritics": "اگر",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ʔ"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "æ"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "g"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "اگر"
+    },
+    {
+      "farsi": "بردمد",
+      "transliteration": "bardamad",
+      "meaning": "it brings forth or takes away",
+      "pronunciation": "bar-da-mad",
+      "diacritics": "بردمد",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بردمد"
+    },
+    {
+      "farsi": "گیاه",
+      "transliteration": "giyah",
+      "meaning": "plant",
+      "pronunciation": "gi-yah",
+      "diacritics": "گیاه",
+      "letters": [
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "گیاه"
+    },
+    {
+      "farsi": "جور",
+      "transliteration": "joor",
+      "meaning": "oppression, injustice",
+      "pronunciation": "joor",
+      "diacritics": "جور",
+      "letters": [
+        {
+          "char": "ج",
+          "name": "Jim",
+          "isolated": "ج",
+          "initial": "جـ",
+          "medial": "ـجـ",
+          "final": "ـج",
+          "sound": "dʒ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "جور"
+    },
+    {
+      "farsi": "چو",
+      "transliteration": "cho",
+      "meaning": "like (short poetic form)",
+      "pronunciation": "cho",
+      "diacritics": "چو",
+      "letters": [
+        {
+          "char": "چ",
+          "name": "Che",
+          "isolated": "چ",
+          "initial": "چـ",
+          "medial": "ـچـ",
+          "final": "ـچ",
+          "sound": "tʃ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "o"
+        }
+      ],
+      "pos": "adverb",
+      "lemma": "چو"
+    },
+    {
+      "farsi": "بمیرم",
+      "transliteration": "bemiram",
+      "meaning": "I die",
+      "pronunciation": "be-mi-ram",
+      "diacritics": "بمیرم",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "مرد#میر"
+    },
+    {
+      "farsi": "نو",
+      "transliteration": "now",
+      "meaning": "new",
+      "pronunciation": "noh",
+      "diacritics": "نو",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "نو"
+    },
+    {
+      "farsi": "شوم",
+      "transliteration": "shavam",
+      "meaning": "I become",
+      "pronunciation": "sha-vam",
+      "diacritics": "شوم",
+      "letters": [
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "و",
+          "name": "Vav",
+          "isolated": "و",
+          "initial": "و",
+          "medial": "ـو",
+          "final": "ـو",
+          "sound": "v"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "شد#شو"
+    },
+    {
+      "farsi": "زنده",
+      "transliteration": "zendeh",
+      "meaning": "alive",
+      "pronunciation": "zen-deh",
+      "diacritics": "زنده",
+      "letters": [
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "زنده"
+    },
+    {
+      "farsi": "چشم",
+      "transliteration": "cheshm",
+      "meaning": "eye",
+      "pronunciation": "chesh-m",
+      "diacritics": "چشم",
+      "letters": [
+        {
+          "char": "چ",
+          "name": "Che",
+          "isolated": "چ",
+          "initial": "چـ",
+          "medial": "ـچـ",
+          "final": "ـچ",
+          "sound": "tʃ"
+        },
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "چشم"
+    },
+    {
+      "farsi": "عنایت",
+      "transliteration": "enayat",
+      "meaning": "favor or grace",
+      "pronunciation": "e-na-yat",
+      "diacritics": "عنایت",
+      "letters": [
+        {
+          "char": "ع",
+          "name": "Ayn",
+          "isolated": "ع",
+          "initial": "عـ",
+          "medial": "ـعـ",
+          "final": "ـع",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ت",
+          "name": "Te",
+          "isolated": "ت",
+          "initial": "تـ",
+          "medial": "ـتـ",
+          "final": "ـت",
+          "sound": "t"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "عنایت"
+    },
+    {
+      "farsi": "نگاه",
+      "transliteration": "negah",
+      "meaning": "look or glance",
+      "pronunciation": "ne-gah",
+      "diacritics": "نگاه",
+      "letters": [
+        {
+          "char": "ن",
+          "name": "Nun",
+          "isolated": "ن",
+          "initial": "نـ",
+          "medial": "ـنـ",
+          "final": "ـن",
+          "sound": "n"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "نگاه"
+    },
+    {
+      "farsi": "عبید",
+      "transliteration": "obeyd",
+      "meaning": "Obeid (the poet's name)",
+      "pronunciation": "o-BEYD",
+      "diacritics": "عبید",
+      "letters": [
+        {
+          "char": "ع",
+          "name": "Ayn",
+          "isolated": "ع",
+          "initial": "عـ",
+          "medial": "ـعـ",
+          "final": "ـع",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "o"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "b"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "e"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "عبید"
+    },
+    {
+      "farsi": "از",
+      "transliteration": "az",
+      "meaning": "from, of",
+      "pronunciation": "az",
+      "diacritics": "از",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ʔ"
+        },
+        {
+          "char": "ز",
+          "name": "Ze",
+          "isolated": "ز",
+          "initial": "ز",
+          "medial": "ـز",
+          "final": "ـز",
+          "sound": "z"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "از"
+    },
+    {
+      "farsi": "کرم",
+      "transliteration": "keram",
+      "meaning": "kindness, generosity",
+      "pronunciation": "ke-ram",
+      "diacritics": "کرم",
+      "letters": [
+        {
+          "char": "ک",
+          "name": "Kaf",
+          "isolated": "ک",
+          "initial": "کـ",
+          "medial": "ـکـ",
+          "final": "ـک",
+          "sound": "k"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "کرم"
+    },
+    {
+      "farsi": "یار",
+      "transliteration": "yār",
+      "meaning": "beloved; friend",
+      "pronunciation": "yār",
+      "diacritics": "یار",
+      "letters": [
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "یار"
+    },
+    {
+      "farsi": "بر",
+      "transliteration": "bar",
+      "meaning": "on, upon",
+      "pronunciation": "bar",
+      "diacritics": "بر",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "æ"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "بر"
+    },
+    {
+      "farsi": "مدار",
+      "transliteration": "madar",
+      "meaning": "orbit, cycle",
+      "pronunciation": "ma-dar",
+      "diacritics": "مدار",
+      "letters": [
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ر",
+          "name": "Re",
+          "isolated": "ر",
+          "initial": "ر",
+          "medial": "ـر",
+          "final": "ـر",
+          "sound": "r"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "مدار"
+    },
+    {
+      "farsi": "امید",
+      "transliteration": "omid",
+      "meaning": "hope",
+      "pronunciation": "o-mid",
+      "diacritics": "امید",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "امید"
+    },
+    {
+      "farsi": "لطف",
+      "transliteration": "lotf",
+      "meaning": "grace, kindness",
+      "pronunciation": "lotf",
+      "diacritics": "لطف",
+      "letters": [
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        },
+        {
+          "char": "ط",
+          "name": "Ta",
+          "isolated": "ط",
+          "initial": "طـ",
+          "medial": "ـطـ",
+          "final": "ـط",
+          "sound": "t"
+        },
+        {
+          "char": "ف",
+          "name": "Fe",
+          "isolated": "ف",
+          "initial": "فـ",
+          "medial": "ـفـ",
+          "final": "ـف",
+          "sound": "f"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "لطف"
+    },
+    {
+      "farsi": "شامل",
+      "transliteration": "shamel",
+      "meaning": "including, encompassing",
+      "pronunciation": "sha-mel",
+      "diacritics": "شامل",
+      "letters": [
+        {
+          "char": "ش",
+          "name": "Shin",
+          "isolated": "ش",
+          "initial": "شـ",
+          "medial": "ـشـ",
+          "final": "ـش",
+          "sound": "ʃ"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ل",
+          "name": "Lam",
+          "isolated": "ل",
+          "initial": "لـ",
+          "medial": "ـلـ",
+          "final": "ـل",
+          "sound": "l"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "شامل"
+    },
+    {
+      "farsi": "بس",
+      "transliteration": "bas",
+      "meaning": "enough",
+      "pronunciation": "bas",
+      "diacritics": "بس",
+      "letters": [
+        {
+          "char": "ب",
+          "name": "Be",
+          "isolated": "ب",
+          "initial": "بـ",
+          "medial": "ـبـ",
+          "final": "ـب",
+          "sound": "b"
+        },
+        {
+          "char": "س",
+          "name": "Sin",
+          "isolated": "س",
+          "initial": "سـ",
+          "medial": "ـسـ",
+          "final": "ـس",
+          "sound": "s"
+        }
+      ],
+      "pos": "adverb",
+      "lemma": "بس"
+    },
+    {
+      "farsi": "امیدگاه",
+      "transliteration": "omidgah",
+      "meaning": "place or foundation of hope",
+      "pronunciation": "o-mid-gah",
+      "diacritics": "امیدگاه",
+      "letters": [
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "م",
+          "name": "Mim",
+          "isolated": "م",
+          "initial": "مـ",
+          "medial": "ـمـ",
+          "final": "ـم",
+          "sound": "m"
+        },
+        {
+          "char": "ی",
+          "name": "Ye",
+          "isolated": "ی",
+          "initial": "یـ",
+          "medial": "ـیـ",
+          "final": "ـی",
+          "sound": "j"
+        },
+        {
+          "char": "د",
+          "name": "Dal",
+          "isolated": "د",
+          "initial": "د",
+          "medial": "ـد",
+          "final": "ـد",
+          "sound": "d"
+        },
+        {
+          "char": "گ",
+          "name": "Gaf",
+          "isolated": "گ",
+          "initial": "گـ",
+          "medial": "ـگـ",
+          "final": "ـگ",
+          "sound": "ɡ"
+        },
+        {
+          "char": "ا",
+          "name": "Alef",
+          "isolated": "ا",
+          "initial": "ا",
+          "medial": "ـا",
+          "final": "ـا",
+          "sound": "ɑː"
+        },
+        {
+          "char": "ه",
+          "name": "He",
+          "isolated": "ه",
+          "initial": "هـ",
+          "medial": "ـهـ",
+          "final": "ـه",
+          "sound": "h"
+        }
+      ],
+      "pos": "particle",
+      "lemma": "امیدگاه"
+    }
+  ],
+  "sentences": [
+    {
+      "text": "بکشت غمزه آن شوخ، بی‌گناه مرا",
+      "tokens": [
+        {
+          "surface": "بکشت",
+          "lemma": "بکش",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "غمزه",
+          "lemma": "غمزه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "آن",
+          "lemma": "آن",
+          "pos": "determiner",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "شوخ",
+          "lemma": "شوخ",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "،",
+          "lemma": "،",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بی‌گناه",
+          "lemma": "بی‌گناه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "فکند سیب زنخدان او به چاه مرا",
+      "tokens": [
+        {
+          "surface": "فکند",
+          "lemma": "فکند#فکن",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "سیب",
+          "lemma": "سیب",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "زنخدان",
+          "lemma": "زنخدان",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "او",
+          "lemma": "او",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "به",
+          "lemma": "به",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "چاه",
+          "lemma": "چاه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "غلام هندوی خالش شدم ندانستم",
+      "tokens": [
+        {
+          "surface": "غلام",
+          "lemma": "غلام",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "هندوی",
+          "lemma": "هندوی",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "خالش",
+          "lemma": "خال",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "شدم",
+          "lemma": "شد#شو",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "ندانستم",
+          "lemma": "دانست#دان",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "کاسیر خویش کند زنگی سیاه مرا",
+      "tokens": [
+        {
+          "surface": "کاسیر",
+          "lemma": "کاسیر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "خویش",
+          "lemma": "خویش",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "کند",
+          "lemma": "کرد#کن",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "زنگی",
+          "lemma": "زنگی",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "سیاه",
+          "lemma": "سیاه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "دلم بجا و دماغم سلیم بود ولی",
+      "tokens": [
+        {
+          "surface": "دلم",
+          "lemma": "دلم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بجا",
+          "lemma": "بجا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "و",
+          "lemma": "و",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "دماغم",
+          "lemma": "دماغ",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "سلیم",
+          "lemma": "سلیم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بود",
+          "lemma": "بود#است",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "ولی",
+          "lemma": "ولی",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "ز راه رفتن او دل بشد ز راه مرا",
+      "tokens": [
+        {
+          "surface": "ز",
+          "lemma": "ز",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "راه",
+          "lemma": "راه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "رفتن",
+          "lemma": "رفتن",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "او",
+          "lemma": "او",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "دل",
+          "lemma": "دل",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بشد",
+          "lemma": "بشد",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "ز",
+          "lemma": "ز",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "راه",
+          "lemma": "راه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "هزار بار فتادم به دام دیده و دل",
+      "tokens": [
+        {
+          "surface": "هزار",
+          "lemma": "هزار",
+          "pos": "number",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بار",
+          "lemma": "بار",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "فتادم",
+          "lemma": "فتادم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "به",
+          "lemma": "به",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "دام",
+          "lemma": "دام",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "دیده",
+          "lemma": "دید#بین",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "و",
+          "lemma": "و",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "دل",
+          "lemma": "دل",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "هنوز هیچ نمی‌باشد انتباه مرا",
+      "tokens": [
+        {
+          "surface": "هنوز",
+          "lemma": "هنوز",
+          "pos": "adverb",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "هیچ",
+          "lemma": "هیچ",
+          "pos": "determiner",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "نمی‌باشد",
+          "lemma": "باشید#باش",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "انتباه",
+          "lemma": "انتباه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "ز مهر او نتوانم که روی برتابم",
+      "tokens": [
+        {
+          "surface": "ز",
+          "lemma": "ز",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مهر",
+          "lemma": "مهر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "او",
+          "lemma": "او",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "نتوانم",
+          "lemma": "توانست#توان",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "که",
+          "lemma": "که",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "روی",
+          "lemma": "روی",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "برتابم",
+          "lemma": "برتابم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "ز خاک گور اگر بردمد گیاه مرا",
+      "tokens": [
+        {
+          "surface": "ز",
+          "lemma": "ز",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "خاک",
+          "lemma": "خاک",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "گور",
+          "lemma": "گور",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "اگر",
+          "lemma": "اگر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بردمد",
+          "lemma": "بردمد",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "گیاه",
+          "lemma": "گیاه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "به جور او چو بمیرم ز نو شوم زنده",
+      "tokens": [
+        {
+          "surface": "به",
+          "lemma": "به",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "جور",
+          "lemma": "جور",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "او",
+          "lemma": "او",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "چو",
+          "lemma": "چو",
+          "pos": "adverb",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بمیرم",
+          "lemma": "مرد#میر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "ز",
+          "lemma": "ز",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "نو",
+          "lemma": "نو",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "شوم",
+          "lemma": "شد#شو",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "زنده",
+          "lemma": "زنده",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "اگر به چشم عنایت کند نگاه مرا",
+      "tokens": [
+        {
+          "surface": "اگر",
+          "lemma": "اگر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "به",
+          "lemma": "به",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "چشم",
+          "lemma": "چشم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "عنایت",
+          "lemma": "عنایت",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "کند",
+          "lemma": "کرد#کن",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "نگاه",
+          "lemma": "نگاه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "عبید از کرم یار بر مدار امید",
+      "tokens": [
+        {
+          "surface": "عبید",
+          "lemma": "عبید",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "از",
+          "lemma": "از",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "کرم",
+          "lemma": "کرم",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "یار",
+          "lemma": "یار",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بر",
+          "lemma": "بر",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مدار",
+          "lemma": "مدار",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "امید",
+          "lemma": "امید",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    },
+    {
+      "text": "که لطف شامل او بس امیدگاه مرا",
+      "tokens": [
+        {
+          "surface": "که",
+          "lemma": "که",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "لطف",
+          "lemma": "لطف",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "شامل",
+          "lemma": "شامل",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "او",
+          "lemma": "او",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "بس",
+          "lemma": "بس",
+          "pos": "adverb",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "امیدگاه",
+          "lemma": "امیدگاه",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        },
+        {
+          "surface": "مرا",
+          "lemma": "مرا",
+          "pos": "particle",
+          "dep_head": 0,
+          "dep_rel": "dep"
+        }
+      ]
+    }
+  ],
+  "layout": "poem",
+  "source": "ganjoor",
+  "ganjoor_id": 23551
+}

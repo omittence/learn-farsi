@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "source_raw_path": "stories/drafts/raw-obeyd-divan-obeyd-ghazal-obeyd-sh1.json",
+  "note": "Fill only the lexical fields for each word. Keep farsi unchanged. Keep prefilled diacritics unless you need to correct them.",
+  "words": [
+    {
+      "farsi": "غمزه",
+      "normalized": "غمزه",
+      "diacritics": "غمزهٔ",
+      "transliteration": "ghamze",
+      "meaning": "a flirtatious wink or playful glance",
+      "pronunciation": "gham-ze",
+      "pos": "particle",
+      "lemma": "غمزه"
+    },
+    {
+      "farsi": "شوخ",
+      "normalized": "شوخ",
+      "diacritics": "شوخ",
+      "transliteration": "shookh",
+      "meaning": "mischievous or playful",
+      "pronunciation": "shookh",
+      "pos": "particle",
+      "lemma": "شوخ"
+    },
+    {
+      "farsi": "بی‌گناه",
+      "normalized": "بیگناه",
+      "diacritics": "بی‌گناه",
+      "transliteration": "bi gonah",
+      "meaning": "innocent",
+      "pronunciation": "bi-go-nah",
+      "pos": "particle",
+      "lemma": "بی‌گناه"
+    },
+    {
+      "farsi": "فکند",
+      "normalized": "فکند",
+      "diacritics": "فکند",
+      "transliteration": "fakand",
+      "meaning": "he/she threw",
+      "pronunciation": "fa-kand",
+      "pos": "particle",
+      "lemma": "فکند#فکن"
+    },
+    {
+      "farsi": "سیب",
+      "normalized": "سیب",
+      "diacritics": "سیب",
+      "transliteration": "seeb",
+      "meaning": "apple",
+      "pronunciation": "seeb",
+      "pos": "particle",
+      "lemma": "سیب"
+    },
+    {
+      "farsi": "زنخدان",
+      "normalized": "زنخدان",
+      "diacritics": "زنخدان",
+      "transliteration": "zankhdan",
+      "meaning": "cheek or dimple",
+      "pronunciation": "zankh-dan",
+      "pos": "particle",
+      "lemma": "زنخدان"
+    },
+    {
+      "farsi": "چاه",
+      "normalized": "چاه",
+      "diacritics": "چاه",
+      "transliteration": "chah",
+      "meaning": "well (water well)",
+      "pronunciation": "chah",
+      "pos": "particle",
+      "lemma": "چاه"
+    },
+    {
+      "farsi": "هندوی",
+      "normalized": "هندوی",
+      "diacritics": "هندوی",
+      "transliteration": "hendooy",
+      "meaning": "a Hindu or Indian woman",
+      "pronunciation": "hen-dooy",
+      "pos": "particle",
+      "lemma": "هندوی"
+    },
+    {
+      "farsi": "خالش",
+      "normalized": "خالش",
+      "diacritics": "خالش",
+      "transliteration": "khalash",
+      "meaning": "her beauty spot (mole)",
+      "pronunciation": "kha-lash",
+      "pos": "particle",
+      "lemma": "خال"
+    },
+    {
+      "farsi": "شدم",
+      "normalized": "شدم",
+      "diacritics": "شدم",
+      "transliteration": "shodam",
+      "meaning": "I became",
+      "pronunciation": "sho-dam",
+      "pos": "particle",
+      "lemma": "شد#شو"
+    },
+    {
+      "farsi": "ندانستم",
+      "normalized": "ندانستم",
+      "diacritics": "ندانستم",
+      "transliteration": "nadanestam",
+      "meaning": "I did not know",
+      "pronunciation": "na-da-nes-tam",
+      "pos": "particle",
+      "lemma": "دانست#دان"
+    },
+    {
+      "farsi": "کاسیر",
+      "normalized": "کاسیر",
+      "diacritics": "کاسیر",
+      "transliteration": "kaseer",
+      "meaning": "a captive or someone held in bondage",
+      "pronunciation": "ka-seer",
+      "pos": "particle",
+      "lemma": "کاسیر"
+    },
+    {
+      "farsi": "زنگی",
+      "normalized": "زنگی",
+      "diacritics": "زنگی",
+      "transliteration": "zangi",
+      "meaning": "dark-skinned person (historical term)",
+      "pronunciation": "zan-gi",
+      "pos": "particle",
+      "lemma": "زنگی"
+    },
+    {
+      "farsi": "سیاه",
+      "normalized": "سیاه",
+      "diacritics": "سیاه",
+      "transliteration": "seeah",
+      "meaning": "black or dark",
+      "pronunciation": "see-ah",
+      "pos": "particle",
+      "lemma": "سیاه"
+    },
+    {
+      "farsi": "دلم",
+      "normalized": "دلم",
+      "diacritics": "دلم",
+      "transliteration": "delam",
+      "meaning": "my heart",
+      "pronunciation": "de-lam",
+      "pos": "particle",
+      "lemma": "دلم"
+    },
+    {
+      "farsi": "بجا",
+      "normalized": "بجا",
+      "diacritics": "بجا",
+      "transliteration": "beja",
+      "meaning": "properly, in place",
+      "pronunciation": "be-ja",
+      "pos": "particle",
+      "lemma": "بجا"
+    },
+    {
+      "farsi": "دماغم",
+      "normalized": "دماغم",
+      "diacritics": "دماغم",
+      "transliteration": "demagham",
+      "meaning": "my temperament or disposition",
+      "pronunciation": "de-mag-ham",
+      "pos": "particle",
+      "lemma": "دماغ"
+    },
+    {
+      "farsi": "سلیم",
+      "normalized": "سلیم",
+      "diacritics": "سلیم",
+      "transliteration": "salim",
+      "meaning": "sound, healthy",
+      "pronunciation": "sa-leem",
+      "pos": "particle",
+      "lemma": "سلیم"
+    },
+    {
+      "farsi": "رفتن",
+      "normalized": "رفتن",
+      "diacritics": "رفتن",
+      "transliteration": "raftan",
+      "meaning": "to go",
+      "pronunciation": "raf-tan",
+      "pos": "particle",
+      "lemma": "رفتن"
+    },
+    {
+      "farsi": "فتادم",
+      "normalized": "فتادم",
+      "diacritics": "فتادم",
+      "transliteration": "oftadam",
+      "meaning": "I fell",
+      "pronunciation": "of-ta-dam",
+      "pos": "particle",
+      "lemma": "فتادم"
+    },
+    {
+      "farsi": "دام",
+      "normalized": "دام",
+      "diacritics": "دام",
+      "transliteration": "dam",
+      "meaning": "trap",
+      "pronunciation": "dam",
+      "pos": "particle",
+      "lemma": "دام"
+    },
+    {
+      "farsi": "دیده",
+      "normalized": "دیده",
+      "diacritics": "دیده",
+      "transliteration": "dideh",
+      "meaning": "sight, eye",
+      "pronunciation": "di-deh",
+      "pos": "particle",
+      "lemma": "دید#بین"
+    },
+    {
+      "farsi": "هنوز",
+      "normalized": "هنوز",
+      "diacritics": "هنوز",
+      "transliteration": "hanuz",
+      "meaning": "still, yet",
+      "pronunciation": "ha-nuz",
+      "pos": "adverb",
+      "lemma": "هنوز"
+    },
+    {
+      "farsi": "هیچ",
+      "normalized": "هیچ",
+      "diacritics": "هیچ",
+      "transliteration": "hich",
+      "meaning": "nothing",
+      "pronunciation": "hich",
+      "pos": "determiner",
+      "lemma": "هیچ"
+    },
+    {
+      "farsi": "نمی‌باشد",
+      "normalized": "نمیباشد",
+      "diacritics": "نمی‌باشد",
+      "transliteration": "nemi bashad",
+      "meaning": "is not",
+      "pronunciation": "ne-mi ba-shad",
+      "pos": "particle",
+      "lemma": "باشید#باش"
+    },
+    {
+      "farsi": "انتباه",
+      "normalized": "انتباه",
+      "diacritics": "انتباه",
+      "transliteration": "entebah",
+      "meaning": "attention, notice",
+      "pronunciation": "en-te-bah",
+      "pos": "particle",
+      "lemma": "انتباه"
+    },
+    {
+      "farsi": "نتوانم",
+      "normalized": "نتوانم",
+      "diacritics": "نتوانم",
+      "transliteration": "natavanam",
+      "meaning": "I cannot",
+      "pronunciation": "na-ta-va-nam",
+      "pos": "particle",
+      "lemma": "توانست#توان"
+    },
+    {
+      "farsi": "برتابم",
+      "normalized": "برتابم",
+      "diacritics": "برتابم",
+      "transliteration": "bertabam",
+      "meaning": "bear me, tolerate me",
+      "pronunciation": "ber-ta-bam",
+      "pos": "particle",
+      "lemma": "برتابم"
+    },
+    {
+      "farsi": "گور",
+      "normalized": "گور",
+      "diacritics": "گور",
+      "transliteration": "goor",
+      "meaning": "grave",
+      "pronunciation": "goor",
+      "pos": "particle",
+      "lemma": "گور"
+    },
+    {
+      "farsi": "بردمد",
+      "normalized": "بردمد",
+      "diacritics": "بردمد",
+      "transliteration": "bardamad",
+      "meaning": "it brings forth or takes away",
+      "pronunciation": "bar-da-mad",
+      "pos": "particle",
+      "lemma": "بردمد"
+    },
+    {
+      "farsi": "گیاه",
+      "normalized": "گیاه",
+      "diacritics": "گیاه",
+      "transliteration": "giyah",
+      "meaning": "plant",
+      "pronunciation": "gi-yah",
+      "pos": "particle",
+      "lemma": "گیاه"
+    },
+    {
+      "farsi": "جور",
+      "normalized": "جور",
+      "diacritics": "جور",
+      "transliteration": "joor",
+      "meaning": "oppression, injustice",
+      "pronunciation": "joor",
+      "pos": "particle",
+      "lemma": "جور"
+    },
+    {
+      "farsi": "بمیرم",
+      "normalized": "بمیرم",
+      "diacritics": "بمیرم",
+      "transliteration": "bemiram",
+      "meaning": "I die",
+      "pronunciation": "be-mi-ram",
+      "pos": "particle",
+      "lemma": "مرد#میر"
+    },
+    {
+      "farsi": "شوم",
+      "normalized": "شوم",
+      "diacritics": "شوم",
+      "transliteration": "shavam",
+      "meaning": "I become",
+      "pronunciation": "sha-vam",
+      "pos": "particle",
+      "lemma": "شد#شو"
+    },
+    {
+      "farsi": "زنده",
+      "normalized": "زنده",
+      "diacritics": "زنده",
+      "transliteration": "zendeh",
+      "meaning": "alive",
+      "pronunciation": "zen-deh",
+      "pos": "particle",
+      "lemma": "زنده"
+    },
+    {
+      "farsi": "چشم",
+      "normalized": "چشم",
+      "diacritics": "چشم",
+      "transliteration": "cheshm",
+      "meaning": "eye",
+      "pronunciation": "chesh-m",
+      "pos": "particle",
+      "lemma": "چشم"
+    },
+    {
+      "farsi": "عنایت",
+      "normalized": "عنایت",
+      "diacritics": "عنایت",
+      "transliteration": "enayat",
+      "meaning": "favor or grace",
+      "pronunciation": "e-na-yat",
+      "pos": "particle",
+      "lemma": "عنایت"
+    },
+    {
+      "farsi": "نگاه",
+      "normalized": "نگاه",
+      "diacritics": "نگاه",
+      "transliteration": "negah",
+      "meaning": "look or glance",
+      "pronunciation": "ne-gah",
+      "pos": "particle",
+      "lemma": "نگاه"
+    },
+    {
+      "farsi": "کرم",
+      "normalized": "کرم",
+      "diacritics": "کرم",
+      "transliteration": "keram",
+      "meaning": "kindness, generosity",
+      "pronunciation": "ke-ram",
+      "pos": "particle",
+      "lemma": "کرم"
+    },
+    {
+      "farsi": "مدار",
+      "normalized": "مدار",
+      "diacritics": "مدار",
+      "transliteration": "madar",
+      "meaning": "orbit, cycle",
+      "pronunciation": "ma-dar",
+      "pos": "particle",
+      "lemma": "مدار"
+    },
+    {
+      "farsi": "امید",
+      "normalized": "امید",
+      "diacritics": "امید",
+      "transliteration": "omid",
+      "meaning": "hope",
+      "pronunciation": "o-mid",
+      "pos": "particle",
+      "lemma": "امید"
+    },
+    {
+      "farsi": "لطف",
+      "normalized": "لطف",
+      "diacritics": "لطف",
+      "transliteration": "lotf",
+      "meaning": "grace, kindness",
+      "pronunciation": "lotf",
+      "pos": "particle",
+      "lemma": "لطف"
+    },
+    {
+      "farsi": "شامل",
+      "normalized": "شامل",
+      "diacritics": "شامل",
+      "transliteration": "shamel",
+      "meaning": "including, encompassing",
+      "pronunciation": "sha-mel",
+      "pos": "particle",
+      "lemma": "شامل"
+    },
+    {
+      "farsi": "بس",
+      "normalized": "بس",
+      "diacritics": "بس",
+      "transliteration": "bas",
+      "meaning": "enough",
+      "pronunciation": "bas",
+      "pos": "adverb",
+      "lemma": "بس"
+    },
+    {
+      "farsi": "امیدگاه",
+      "normalized": "امیدگاه",
+      "diacritics": "امیدگاه",
+      "transliteration": "omidgah",
+      "meaning": "place or foundation of hope",
+      "pronunciation": "o-mid-gah",
+      "pos": "particle",
+      "lemma": "امیدگاه"
+    }
+  ]
+}

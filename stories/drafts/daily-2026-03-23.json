@@ -1,0 +1,186 @@
+{
+  "debrief_date": "2026-03-23",
+  "title": "نوروز آغاز شد",
+  "title_en": "Nowruz Has Begun",
+  "summary": "Nowruz, the Persian New Year, has arrived. Spring has come and the weather has grown warm. Iranians celebrate this ancient holiday by cleaning their homes, setting the Haft Sin spread, and wishing each other a blessed new year.",
+  "full_text": "نوروز آغاز شد. بهار آمد. هوا گرم شد. مردم ایران این روز را جشن دارند. خانه تمیز شد. سفره آماده شد. سال نو مبارک باد.",
+  "translation": "Nowruz has begun. Spring has come. The weather grew warm. The people of Iran celebrate this day. The house has been cleaned. The spread has been prepared. May the new year be blessed.",
+  "words": [
+    {
+      "farsi": "نوروز",
+      "transliteration": "nowruz",
+      "meaning": "Nowruz; Persian New Year (literally 'new day')",
+      "pronunciation": "noh-ROOZ",
+      "diacritics": "نَوروز",
+      "letters": []
+    },
+    {
+      "farsi": "آغاز",
+      "transliteration": "âghâz",
+      "meaning": "beginning; start",
+      "pronunciation": "aa-GHAAZ",
+      "diacritics": "آغاز",
+      "letters": []
+    },
+    {
+      "farsi": "شد",
+      "transliteration": "shod",
+      "meaning": "became; happened (past tense of شدن — to become)",
+      "pronunciation": "shod",
+      "diacritics": "شُد",
+      "letters": []
+    },
+    {
+      "farsi": "بهار",
+      "transliteration": "bahâr",
+      "meaning": "spring (the season)",
+      "pronunciation": "ba-HAAR",
+      "diacritics": "بَهار",
+      "letters": []
+    },
+    {
+      "farsi": "آمد",
+      "transliteration": "âmad",
+      "meaning": "came (past tense of آمدن — to come)",
+      "pronunciation": "AA-mad",
+      "diacritics": "آمَد",
+      "letters": []
+    },
+    {
+      "farsi": "هوا",
+      "transliteration": "havâ",
+      "meaning": "weather; air",
+      "pronunciation": "ha-VAA",
+      "diacritics": "هَوا",
+      "letters": []
+    },
+    {
+      "farsi": "گرم",
+      "transliteration": "garm",
+      "meaning": "warm; hot",
+      "pronunciation": "GARM",
+      "diacritics": "گَرم",
+      "letters": []
+    },
+    {
+      "farsi": "مردم",
+      "transliteration": "mardom",
+      "meaning": "people; the public",
+      "pronunciation": "MAR-dom",
+      "diacritics": "مَردُم",
+      "letters": []
+    },
+    {
+      "farsi": "ایران",
+      "transliteration": "irân",
+      "meaning": "Iran",
+      "pronunciation": "ee-RAAN",
+      "diacritics": "ایران",
+      "letters": []
+    },
+    {
+      "farsi": "این",
+      "transliteration": "in",
+      "meaning": "this",
+      "pronunciation": "een",
+      "diacritics": "این",
+      "letters": []
+    },
+    {
+      "farsi": "روز",
+      "transliteration": "ruz",
+      "meaning": "day",
+      "pronunciation": "rooz",
+      "diacritics": "روز",
+      "letters": []
+    },
+    {
+      "farsi": "را",
+      "transliteration": "râ",
+      "meaning": "(direct object marker — marks what the verb acts on)",
+      "pronunciation": "raa",
+      "diacritics": "را",
+      "letters": []
+    },
+    {
+      "farsi": "جشن",
+      "transliteration": "jashn",
+      "meaning": "celebration; festival",
+      "pronunciation": "JASHN",
+      "diacritics": "جَشن",
+      "letters": []
+    },
+    {
+      "farsi": "دارند",
+      "transliteration": "dârand",
+      "meaning": "they have (present tense of داشتن — to have)",
+      "pronunciation": "DAA-rand",
+      "diacritics": "دارَند",
+      "letters": []
+    },
+    {
+      "farsi": "خانه",
+      "transliteration": "khâne",
+      "meaning": "house; home",
+      "pronunciation": "KHAA-ne",
+      "diacritics": "خانِه",
+      "letters": []
+    },
+    {
+      "farsi": "تمیز",
+      "transliteration": "tamiz",
+      "meaning": "clean; tidy",
+      "pronunciation": "ta-MEEZ",
+      "diacritics": "تَمیز",
+      "letters": []
+    },
+    {
+      "farsi": "سفره",
+      "transliteration": "sofre",
+      "meaning": "spread; tablecloth laid out for a meal or ceremony",
+      "pronunciation": "SOF-re",
+      "diacritics": "سُفرِه",
+      "letters": []
+    },
+    {
+      "farsi": "آماده",
+      "transliteration": "âmâde",
+      "meaning": "ready; prepared",
+      "pronunciation": "aa-MAA-de",
+      "diacritics": "آمادِه",
+      "letters": []
+    },
+    {
+      "farsi": "سال",
+      "transliteration": "sâl",
+      "meaning": "year",
+      "pronunciation": "saal",
+      "diacritics": "سال",
+      "letters": []
+    },
+    {
+      "farsi": "نو",
+      "transliteration": "now",
+      "meaning": "new",
+      "pronunciation": "noh",
+      "diacritics": "نو",
+      "letters": []
+    },
+    {
+      "farsi": "مبارک",
+      "transliteration": "mobârak",
+      "meaning": "blessed; congratulations (used in well-wishes)",
+      "pronunciation": "mo-BAA-rak",
+      "diacritics": "مُبارَک",
+      "letters": []
+    },
+    {
+      "farsi": "باد",
+      "transliteration": "bâd",
+      "meaning": "may it be (optative particle used in blessings, e.g. 'مبارک باد' — may it be blessed)",
+      "pronunciation": "baad",
+      "diacritics": "باد",
+      "letters": []
+    }
+  ]
+}

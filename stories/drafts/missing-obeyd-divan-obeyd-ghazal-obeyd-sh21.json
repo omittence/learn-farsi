@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "source_raw_path": "stories/drafts/raw-obeyd-divan-obeyd-ghazal-obeyd-sh21.json",
+  "note": "Fill only the lexical fields for each word. Keep farsi unchanged. Keep prefilled diacritics unless you need to correct them.",
+  "words": [
+    {
+      "farsi": "شدنم",
+      "normalized": "شدنم",
+      "diacritics": "شدنم",
+      "transliteration": "shodanam",
+      "meaning": "my going; my departure",
+      "pronunciation": "sho-da-NAM"
+    },
+    {
+      "farsi": "زین",
+      "normalized": "زین",
+      "diacritics": "زین",
+      "transliteration": "zīn",
+      "meaning": "from this",
+      "pronunciation": "zīn"
+    },
+    {
+      "farsi": "دیار",
+      "normalized": "دیار",
+      "diacritics": "دیار",
+      "transliteration": "diyār",
+      "meaning": "land; abode",
+      "pronunciation": "di-YĀR"
+    },
+    {
+      "farsi": "ممکن",
+      "normalized": "ممکن",
+      "diacritics": "ممکن",
+      "transliteration": "momken",
+      "meaning": "possible",
+      "pronunciation": "MOM-ken"
+    },
+    {
+      "farsi": "نیست",
+      "normalized": "نیست",
+      "diacritics": "نیست",
+      "transliteration": "nīst",
+      "meaning": "is not",
+      "pronunciation": "nīst"
+    },
+    {
+      "farsi": "غریبیم",
+      "normalized": "غریبیم",
+      "diacritics": "غریبیم",
+      "transliteration": "gharībī-am",
+      "meaning": "my estrangement; my being a stranger",
+      "pronunciation": "gha-ri-BI-yam"
+    },
+    {
+      "farsi": "کوی",
+      "normalized": "کوی",
+      "diacritics": "کوی",
+      "transliteration": "kūy",
+      "meaning": "street; quarter",
+      "pronunciation": "kūy"
+    },
+    {
+      "farsi": "یار",
+      "normalized": "یار",
+      "diacritics": "یار",
+      "transliteration": "yār",
+      "meaning": "beloved; friend",
+      "pronunciation": "yār"
+    },
+    {
+      "farsi": "لب",
+      "normalized": "لب",
+      "diacritics": "لب",
+      "transliteration": "lab",
+      "meaning": "lip",
+      "pronunciation": "lab"
+    },
+    {
+      "farsi": "شیرین",
+      "normalized": "شیرین",
+      "diacritics": "شیرین",
+      "transliteration": "shīrīn",
+      "meaning": "sweet",
+      "pronunciation": "shi-RIN"
+    },
+    {
+      "farsi": "زلف",
+      "normalized": "زلف",
+      "diacritics": "زلف",
+      "transliteration": "zolf",
+      "meaning": "lock of hair",
+      "pronunciation": "zolf"
+    },
+    {
+      "farsi": "عارض",
+      "normalized": "عارض",
+      "diacritics": "عارض",
+      "transliteration": "ʿāreż",
+      "meaning": "face; cheek",
+      "pronunciation": "Ā-rez"
+    },
+    {
+      "farsi": "شکیب",
+      "normalized": "شکیب",
+      "diacritics": "شکیب",
+      "transliteration": "shakīb",
+      "meaning": "patience; endurance",
+      "pronunciation": "sha-KIB"
+    },
+    {
+      "farsi": "طاقت",
+      "normalized": "طاقت",
+      "diacritics": "طاقت",
+      "transliteration": "ṭāqat",
+      "meaning": "strength; endurance",
+      "pronunciation": "TĀ-ghat"
+    },
+    {
+      "farsi": "صبر",
+      "normalized": "صبر",
+      "diacritics": "صبر",
+      "transliteration": "ṣabr",
+      "meaning": "patience",
+      "pronunciation": "sabr"
+    },
+    {
+      "farsi": "قرار",
+      "normalized": "قرار",
+      "diacritics": "قرار",
+      "transliteration": "qarār",
+      "meaning": "rest; composure",
+      "pronunciation": "qa-RĀR"
+    },
+    {
+      "farsi": "دلا",
+      "normalized": "دلا",
+      "diacritics": "دلا",
+      "transliteration": "delā",
+      "meaning": "O heart",
+      "pronunciation": "de-LĀ"
+    },
+    {
+      "farsi": "بکوش",
+      "normalized": "بکوش",
+      "diacritics": "بکوش",
+      "transliteration": "bekūsh",
+      "meaning": "strive; try",
+      "pronunciation": "be-KŪSH"
+    },
+    {
+      "farsi": "مگر",
+      "normalized": "مگر",
+      "diacritics": "مگر",
+      "transliteration": "magar",
+      "meaning": "perhaps; lest",
+      "pronunciation": "ma-GAR"
+    },
+    {
+      "farsi": "دامنش",
+      "normalized": "دامنش",
+      "diacritics": "دامنش",
+      "transliteration": "dāmanash",
+      "meaning": "his/her hem; skirt",
+      "pronunciation": "dā-ma-NASH"
+    },
+    {
+      "farsi": "آری",
+      "normalized": "آری",
+      "diacritics": "آری",
+      "transliteration": "ārī",
+      "meaning": "you may bring; you obtain",
+      "pronunciation": "Ā-ri"
+    },
+    {
+      "farsi": "وصل",
+      "normalized": "وصل",
+      "diacritics": "وصل",
+      "transliteration": "vaṣl",
+      "meaning": "union; meeting",
+      "pronunciation": "vasl"
+    },
+    {
+      "farsi": "بی‌طلب",
+      "normalized": "بیطلب",
+      "diacritics": "بی‌طلب",
+      "transliteration": "bī-ṭalab",
+      "meaning": "without seeking",
+      "pronunciation": "bi-ta-LAB"
+    },
+    {
+      "farsi": "انتظار",
+      "normalized": "انتظار",
+      "diacritics": "انتظار",
+      "transliteration": "enteẓār",
+      "meaning": "waiting; expectation",
+      "pronunciation": "en-te-ZĀR"
+    },
+    {
+      "farsi": "اینکه",
+      "normalized": "اینکه",
+      "diacritics": "اینکه",
+      "transliteration": "īn-ke",
+      "meaning": "that; the fact that",
+      "pronunciation": "IN-ke"
+    },
+    {
+      "farsi": "نورزم",
+      "normalized": "نورزم",
+      "diacritics": "نورزم",
+      "transliteration": "navarzam",
+      "meaning": "I do not practice; I do not bear",
+      "pronunciation": "na-VAR-zam"
+    },
+    {
+      "farsi": "نرود",
+      "normalized": "نرود",
+      "diacritics": "نرود",
+      "transliteration": "naravad",
+      "meaning": "it does not go; it does not pass",
+      "pronunciation": "na-ra-VAD"
+    },
+    {
+      "farsi": "بهار",
+      "normalized": "بهار",
+      "diacritics": "بهار",
+      "transliteration": "bahār",
+      "meaning": "spring",
+      "pronunciation": "ba-HĀR"
+    },
+    {
+      "farsi": "ماییم",
+      "normalized": "ماییم",
+      "diacritics": "ماییم",
+      "transliteration": "māyīm",
+      "meaning": "we are",
+      "pronunciation": "mā-YIM"
+    },
+    {
+      "farsi": "حالیا",
+      "normalized": "حالیا",
+      "diacritics": "حالیا",
+      "transliteration": "ḥāliyā",
+      "meaning": "now; at present",
+      "pronunciation": "hā-li-YĀ"
+    },
+    {
+      "farsi": "آنجا",
+      "normalized": "آنجا",
+      "diacritics": "آنجا",
+      "transliteration": "ānjā",
+      "meaning": "there",
+      "pronunciation": "ĀN-jā"
+    },
+    {
+      "farsi": "مسافران",
+      "normalized": "مسافران",
+      "diacritics": "مسافران",
+      "transliteration": "mosāferān",
+      "meaning": "travelers",
+      "pronunciation": "mo-sā-fe-RĀN"
+    },
+    {
+      "farsi": "گذار",
+      "normalized": "گذار",
+      "diacritics": "گذار",
+      "transliteration": "gozār",
+      "meaning": "passage; passing",
+      "pronunciation": "go-ZĀR"
+    },
+    {
+      "farsi": "غزلی",
+      "normalized": "غزلی",
+      "diacritics": "غزلی",
+      "transliteration": "ghazalī",
+      "meaning": "a ghazal",
+      "pronunciation": "gha-za-LI"
+    },
+    {
+      "farsi": "گاه",
+      "normalized": "گاه",
+      "diacritics": "گاه",
+      "transliteration": "gāh",
+      "meaning": "time; occasion",
+      "pronunciation": "gāh"
+    },
+    {
+      "farsi": "بتوان",
+      "normalized": "بتوان",
+      "diacritics": "بتوان",
+      "transliteration": "betavān",
+      "meaning": "one may be able; can",
+      "pronunciation": "be-ta-VĀN"
+    },
+    {
+      "farsi": "بگو",
+      "normalized": "بگو",
+      "diacritics": "بگو",
+      "transliteration": "begū",
+      "meaning": "say; speak",
+      "pronunciation": "be-GŪ"
+    },
+    {
+      "farsi": "خوشتر",
+      "normalized": "خوشتر",
+      "diacritics": "خوشتر",
+      "transliteration": "khoshtar",
+      "meaning": "more pleasant; better",
+      "pronunciation": "KHOSH-tar"
+    }
+  ]
+}

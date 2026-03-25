@@ -2,13 +2,12 @@ import { createClient } from '@supabase/supabase-js';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { config } from 'dotenv';
-import type { DraftStory, DraftWord } from '../lib/types';
+import type { DraftDailyDebrief, DraftWord } from '../lib/types';
 import { generateLetters, tokenizePersianWords } from './lib/persian';
 
-// Load .env.local
 config({ path: resolve(process.cwd(), '.env.local') });
 
-const supabaseUrl    = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 if (!supabaseUrl || !serviceRoleKey) {
@@ -20,7 +19,15 @@ const supabase = createClient(supabaseUrl, serviceRoleKey, {
   auth: { autoRefreshToken: false, persistSession: false },
 });
 
-function validateDraft(draft: DraftStory) {
+function validateDate(value: string) {
+  if (!/^\d{4}-\d{2}-\d{2}$/u.test(value)) {
+    throw new Error(`Debrief date must be YYYY-MM-DD, got "${value}"`);
+  }
+}
+
+function validateDraft(draft: DraftDailyDebrief) {
+  validateDate(draft.debrief_date);
+
   const tokenSet = new Set(tokenizePersianWords(draft.full_text));
   const wordSet = new Set<string>();
 
@@ -40,11 +47,11 @@ function validateDraft(draft: DraftStory) {
 
 async function upsertWord(w: DraftWord): Promise<{ id: string; created: boolean }> {
   const insertData: Record<string, string> = {
-    farsi:           w.farsi,
+    farsi: w.farsi,
     transliteration: w.transliteration,
-    meaning:         w.meaning,
-    pronunciation:   w.pronunciation,
-    diacritics:      w.diacritics,
+    meaning: w.meaning,
+    pronunciation: w.pronunciation,
+    diacritics: w.diacritics,
   };
   if (w.pos) insertData.pos = w.pos;
   if (w.lemma) insertData.lemma = w.lemma;
@@ -57,7 +64,6 @@ async function upsertWord(w: DraftWord): Promise<{ id: string; created: boolean 
 
   if (wordRow) return { id: wordRow.id, created: true };
 
-  // ignoreDuplicates skipped the insert — fetch the existing row
   const { data: existing, error } = await supabase
     .from('words')
     .select('id')
@@ -68,96 +74,92 @@ async function upsertWord(w: DraftWord): Promise<{ id: string; created: boolean 
     console.error(`Failed to resolve word "${w.farsi}":`, error?.message);
     process.exit(1);
   }
+
   return { id: existing.id, created: false };
 }
 
 async function ingest(filePath: string) {
   const absolute = resolve(process.cwd(), filePath);
   const raw = readFileSync(absolute, 'utf-8');
-  const draft: DraftStory = JSON.parse(raw);
+  const draft: DraftDailyDebrief = JSON.parse(raw);
   validateDraft(draft);
 
-  console.log(`\nIngesting: "${draft.title_en}" (${draft.level})`);
+  console.log(`\nIngesting daily debrief: "${draft.title_en}" (${draft.debrief_date})`);
   console.log(`Words: ${draft.words.length}`);
-  let createdWords = 0;
-  let reusedWords = 0;
 
-  // 1. Insert story
-  const { data: storyRow, error: storyErr } = await supabase
-    .from('stories')
+  const { data: debriefRow, error: debriefErr } = await supabase
+    .from('daily_debriefs')
     .insert({
-      title:       draft.title,
-      title_en:    draft.title_en,
-      level:       draft.level.toLowerCase(),
-      description: draft.description,
-      full_text:   draft.full_text,
+      debrief_date: draft.debrief_date,
+      title: draft.title,
+      title_en: draft.title_en,
+      summary: draft.summary,
+      full_text: draft.full_text,
       translation: draft.translation,
-      layout:      draft.layout ?? 'prose',
-      source:      draft.source ?? 'original',
-      ganjoor_id:  draft.ganjoor_id ?? null,
+      published: true,
     })
     .select('id')
     .single();
 
-  if (storyErr || !storyRow) {
-    console.error('Failed to insert story:', storyErr?.message);
+  if (debriefErr || !debriefRow) {
+    console.error('Failed to insert daily debrief:', debriefErr?.message);
     process.exit(1);
   }
-  const storyId = storyRow.id;
-  console.log(`Story inserted: ${storyId}`);
 
-  // 2. Process each word
+  const debriefId = debriefRow.id;
+  let createdWords = 0;
+  let reusedWords = 0;
+
+  console.log(`Daily debrief inserted: ${debriefId}`);
+
   for (let i = 0; i < draft.words.length; i++) {
-    const w = draft.words[i];
     const word = {
-      ...w,
-      letters: w.letters?.length ? w.letters : generateLetters(w.farsi),
+      ...draft.words[i],
+      letters: draft.words[i].letters?.length ? draft.words[i].letters : generateLetters(draft.words[i].farsi),
     };
     const { id: wordId, created } = await upsertWord(word);
     if (created) createdWords += 1;
     else reusedWords += 1;
 
-    // Link word to story
     const { error: linkErr } = await supabase
-      .from('story_words')
-      .upsert({ story_id: storyId, word_id: wordId, sort_order: i });
+      .from('daily_debrief_words')
+      .upsert({ debrief_id: debriefId, word_id: wordId, sort_order: i });
+
     if (linkErr) {
-      console.error(`Failed to link word "${w.farsi}":`, linkErr.message);
+      console.error(`Failed to link word "${word.farsi}":`, linkErr.message);
       process.exit(1);
     }
 
-    // Insert letters only if this word has none yet
     const { count } = await supabase
       .from('letters')
       .select('id', { count: 'exact', head: true })
       .eq('word_id', wordId);
 
     if ((count ?? 0) === 0 && word.letters.length > 0) {
-      const letterRows = word.letters.map((l, li) => ({
-        word_id:    wordId,
-        char:       l.char,
-        name:       l.name,
-        isolated:   l.isolated,
-        initial:    l.initial,
-        medial:     l.medial,
-        final:      l.final,
-        sound:      l.sound,
+      const letterRows = word.letters.map((letter, li) => ({
+        word_id: wordId,
+        char: letter.char,
+        name: letter.name,
+        isolated: letter.isolated,
+        initial: letter.initial,
+        medial: letter.medial,
+        final: letter.final,
+        sound: letter.sound,
         sort_order: li,
       }));
       const { error: lettersErr } = await supabase.from('letters').insert(letterRows);
       if (lettersErr) {
-        console.error(`Failed to insert letters for "${w.farsi}":`, lettersErr.message);
+        console.error(`Failed to insert letters for "${word.farsi}":`, lettersErr.message);
         process.exit(1);
       }
     }
-
-    console.log(`  [${i + 1}/${draft.words.length}] ${word.farsi} (${word.meaning})`);
   }
 
   // Ingest sentences if available
   if (draft.sentences && draft.sentences.length > 0) {
     console.log(`\nIngesting ${draft.sentences.length} sentences...`);
 
+    // Build a map of farsi -> word_id for linking sentence_words
     const wordIdMap = new Map<string, string>();
     for (const w of draft.words) {
       const { data } = await supabase
@@ -173,8 +175,8 @@ async function ingest(filePath: string) {
       const { data: sentRow, error: sentErr } = await supabase
         .from('sentences')
         .insert({
-          document_id: storyId,
-          document_type: 'story',
+          document_id: debriefId,
+          document_type: 'daily_debrief',
           text: sent.text,
           translation: sent.translation ?? null,
           sort_order: si,
@@ -213,16 +215,15 @@ async function ingest(filePath: string) {
     console.log(`Sentences ingested: ${draft.sentences.length}`);
   }
 
-  console.log(`\nDone! Story "${draft.title_en}" ingested successfully.`);
-  console.log(`Story ID: ${storyId}`);
-  console.log(`Preview:  /story/${storyId}`);
+  console.log(`\nDone! Daily debrief "${draft.title_en}" ingested successfully.`);
+  console.log(`Preview: /daily/${draft.debrief_date}`);
   console.log(`Words reused: ${reusedWords}`);
   console.log(`Words created: ${createdWords}`);
 }
 
 const filePath = process.argv[2];
 if (!filePath) {
-  console.error('Usage: npm run ingest <path-to-draft.json>');
+  console.error('Usage: npm run ingest-daily-debrief <path-to-daily-debrief.json>');
   process.exit(1);
 }
 

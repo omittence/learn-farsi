@@ -1,5 +1,21 @@
 import { supabase } from './supabase';
-import type { StoryCard, StoryWithWords } from './types';
+import type {
+  DailyDebriefCard,
+  DailyDebriefWithWords,
+  SentenceWithWords,
+  StoryCard,
+  StoryWithWords,
+  Word,
+} from './types';
+
+function mapWords(swRows: any[]): Word[] {
+  return (swRows ?? []).map((row: any) => ({
+    ...row.words,
+    letters: (row.words.letters ?? []).sort(
+      (a: any, b: any) => a.sort_order - b.sort_order
+    ),
+  }));
+}
 
 export async function getAllStoryIds(): Promise<string[]> {
   const { data, error } = await supabase
@@ -13,7 +29,7 @@ export async function getAllStoryIds(): Promise<string[]> {
 export async function getAllStoryCards(): Promise<StoryCard[]> {
   const { data, error } = await supabase
     .from('stories')
-    .select('id, title, title_en, level, description, sort_order, story_words(count)')
+    .select('id, title, title_en, level, description, sort_order, layout, story_words(count)')
     .order('sort_order', { ascending: true });
   if (error) throw error;
 
@@ -24,6 +40,7 @@ export async function getAllStoryCards(): Promise<StoryCard[]> {
     level: s.level,
     description: s.description,
     sort_order: s.sort_order,
+    layout: s.layout ?? 'prose',
     word_count: s.story_words?.[0]?.count ?? 0,
   }));
 }
@@ -41,7 +58,7 @@ export async function getStoryWithWords(id: string): Promise<StoryWithWords> {
     .select(`
       sort_order,
       words (
-        id, farsi, transliteration, meaning, pronunciation, diacritics,
+        id, farsi, transliteration, meaning, pronunciation, diacritics, pos, lemma,
         letters ( id, word_id, char, name, isolated, initial, medial, final, sound, sort_order )
       )
     `)
@@ -49,12 +66,158 @@ export async function getStoryWithWords(id: string): Promise<StoryWithWords> {
     .order('sort_order', { ascending: true });
   if (swError) throw swError;
 
-  const words = (swRows ?? []).map((row: any) => ({
-    ...row.words,
-    letters: (row.words.letters ?? []).sort(
-      (a: any, b: any) => a.sort_order - b.sort_order
-    ),
-  }));
+  const words = mapWords(swRows ?? []);
 
   return { ...story, words };
+}
+
+export async function getLatestDailyDebriefWithWords(): Promise<DailyDebriefWithWords | null> {
+  const { data, error } = await supabase
+    .from('daily_debriefs')
+    .select('*')
+    .eq('published', true)
+    .order('debrief_date', { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (error) throw error;
+  if (!data) return null;
+
+  const { data: dwRows, error: dwError } = await supabase
+    .from('daily_debrief_words')
+    .select(`
+      sort_order,
+      words (
+        id, farsi, transliteration, meaning, pronunciation, diacritics, pos, lemma,
+        letters ( id, word_id, char, name, isolated, initial, medial, final, sound, sort_order )
+      )
+    `)
+    .eq('debrief_id', data.id)
+    .order('sort_order', { ascending: true });
+
+  if (dwError) throw dwError;
+
+  return { ...data, layout: 'prose', words: mapWords(dwRows ?? []) };
+}
+
+export async function getLatestDailyDebriefCard(): Promise<DailyDebriefCard | null> {
+  const { data, error } = await supabase
+    .from('daily_debriefs')
+    .select('id, debrief_date, title, title_en, summary, full_text')
+    .eq('published', true)
+    .order('debrief_date', { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (error) throw error;
+  if (!data) return null;
+
+  return data;
+}
+
+export async function getDailyDebriefArchiveDates(): Promise<string[]> {
+  const { data, error } = await supabase
+    .from('daily_debriefs')
+    .select('debrief_date')
+    .eq('published', true)
+    .order('debrief_date', { ascending: false });
+
+  if (error) throw error;
+  return (data ?? []).map((item: { debrief_date: string }) => item.debrief_date);
+}
+
+export async function getDailyDebriefByDate(date: string): Promise<DailyDebriefWithWords> {
+  const { data: debrief, error: debriefError } = await supabase
+    .from('daily_debriefs')
+    .select('*')
+    .eq('debrief_date', date)
+    .eq('published', true)
+    .single();
+
+  if (debriefError) throw debriefError;
+
+  const { data: dwRows, error: dwError } = await supabase
+    .from('daily_debrief_words')
+    .select(`
+      sort_order,
+      words (
+        id, farsi, transliteration, meaning, pronunciation, diacritics, pos, lemma,
+        letters ( id, word_id, char, name, isolated, initial, medial, final, sound, sort_order )
+      )
+    `)
+    .eq('debrief_id', debrief.id)
+    .order('sort_order', { ascending: true });
+
+  if (dwError) throw dwError;
+
+  return {
+    ...debrief,
+    layout: 'prose',
+    words: mapWords(dwRows ?? []),
+  };
+}
+
+export async function getSentencesForDocument(
+  documentId: string,
+  documentType: 'story' | 'daily_debrief',
+): Promise<SentenceWithWords[]> {
+  const { data: sentences, error: sentErr } = await supabase
+    .from('sentences')
+    .select('*')
+    .eq('document_id', documentId)
+    .eq('document_type', documentType)
+    .order('sort_order', { ascending: true });
+
+  if (sentErr) throw sentErr;
+  if (!sentences || sentences.length === 0) return [];
+
+  const result: SentenceWithWords[] = [];
+
+  for (const sent of sentences) {
+    const { data: swRows, error: swErr } = await supabase
+      .from('sentence_words')
+      .select(`
+        sort_order, dep_head, dep_rel,
+        words (
+          id, farsi, transliteration, meaning, pronunciation, diacritics, pos, lemma,
+          letters ( id, word_id, char, name, isolated, initial, medial, final, sound, sort_order )
+        )
+      `)
+      .eq('sentence_id', sent.id)
+      .order('sort_order', { ascending: true });
+
+    if (swErr) throw swErr;
+
+    const words = (swRows ?? []).map((row: any) => ({
+      ...row.words,
+      letters: (row.words.letters ?? []).sort(
+        (a: any, b: any) => a.sort_order - b.sort_order,
+      ),
+      dep_head: row.dep_head,
+      dep_rel: row.dep_rel,
+    }));
+
+    result.push({ ...sent, words });
+  }
+
+  return result;
+}
+
+export async function getWordFamily(lemma: string): Promise<Word[]> {
+  const { data, error } = await supabase
+    .from('words')
+    .select(`
+      id, farsi, transliteration, meaning, pronunciation, diacritics, pos, lemma,
+      letters ( id, word_id, char, name, isolated, initial, medial, final, sound, sort_order )
+    `)
+    .eq('lemma', lemma);
+
+  if (error) throw error;
+
+  return (data ?? []).map((row: any) => ({
+    ...row,
+    letters: (row.letters ?? []).sort(
+      (a: any, b: any) => a.sort_order - b.sort_order,
+    ),
+  }));
 }

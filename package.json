@@ -8,9 +8,15 @@
     "start": "next start",
     "lint": "eslint",
     "ingest": "tsx scripts/ingest.ts",
-    "import-ganjoor": "tsx scripts/import-ganjoor.ts"
+    "ingest-daily-debrief": "tsx scripts/ingest-daily-debrief.ts",
+    "fetch-poem": "tsx scripts/fetch-poem.ts",
+    "prepare-poem-annotation": "tsx scripts/prepare-poem-annotation.ts",
+    "finalize-poem": "tsx scripts/finalize-poem.ts",
+    "generate-daily-debrief": "tsx scripts/generate-daily-debrief.ts",
+    "backfill-hazm": "tsx scripts/backfill-hazm.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
     "@supabase/supabase-js": "^2.99.3",
     "next": "16.2.1",
     "react": "19.2.4",
